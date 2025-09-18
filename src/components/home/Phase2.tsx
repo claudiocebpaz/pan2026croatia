@@ -9,7 +9,7 @@ export default function Phase2() {
           <strong>🚀 Exciting News Coming Soon!</strong>
         </>
       }
-      imageUrl="https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/phase2.jpeg"
+      imageUrl="https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/phase-pan.jpeg"
       content={
         <>
           <p className="whitespace-pre-line">

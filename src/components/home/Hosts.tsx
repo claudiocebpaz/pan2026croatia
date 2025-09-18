@@ -58,7 +58,7 @@ export default function Hosts() {
         {/* <DjSarahHaywood /> */}
         {/* <Divider /> */}
         {/* <DJJlittle /> */}
-        {/* <Divider /> */}
+        <Divider />
         <h2 className="font-cinzel text-3xl font-bold mb-8 text-amber-400">
           Special Guests
         </h2>
