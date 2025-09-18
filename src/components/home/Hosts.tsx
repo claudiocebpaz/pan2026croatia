@@ -18,6 +18,7 @@ import SamathaKennedy from "./DJSamanthaKennedy";
 // import JoshuaSmith from "./DJJoshuaSmith";
 // import HakeemBourne from "./Hakeem";
 import NaimaMoussa from "./NaimaMoussa";
+import Phase2 from "./Phase2";
 
 function Divider() {
   return (
@@ -42,8 +43,9 @@ export default function Hosts() {
         <DJJanBlomqvist />
         <Divider />
         <DjLaylaBenitez />
-        {/* <Divider />
-        <DjSaraLandry /> */}
+        <Divider />
+        {/* <DjSaraLandry /> */}
+        <Phase2 />
         <Divider />
         <h2 className="font-cinzel text-3xl font-bold mb-8 text-amber-400">
           With support from...
