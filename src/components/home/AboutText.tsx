@@ -29,29 +29,40 @@ export function AboutText() {
         cinematographers here—just humans, hearts open, feet moving.
       </p>
       <div className="font-inter mt-6 text-base/7 space-y-4">
-        <p className="font-semibold">Includes:</p>
-        <ul className="list-disc list-inside ml-4 space-y-1">
-          <li>Transfers to and from Split Airport by boat</li>
-          <li>Brunch and dinner daily</li>
+        <p className="font-semibold text-lg">Your Experience Includes</p>
+        <ul className="list-disc list-inside ml-4 space-y-2">
+          <li>Private transfers to and from the airport by luxury bus</li>
+          <li>Private boat transfers between the port and Obonjan Island</li>
+          <li>Daily yoga sessions to awaken the body</li>
+          <li>Daily breathwork journeys to center the mind</li>
+          <li>Community brunch each day to gather and connect</li>
+          <li>Community dinners each evening under the Adriatic sky</li>
+          <li>
+            Engaging community moments — from inspired conversations to
+            activities that spark new friendships
+          </li>
+          <li>Daily and nightly surprises that will inspire and astonish</li>
         </ul>
 
-        <p className="font-semibold mt-4">Excludes:</p>
-        <ul className="list-disc list-inside ml-4 space-y-1">
-          <li>Alcohol</li>
-          <li>Extra activities (jet skiing, scuba diving, boat rides, etc.)</li>
+        <p className="font-semibold text-lg mt-6">Not Included</p>
+        <ul className="list-disc list-inside ml-4 space-y-2">
+          <li>Alcoholic beverages</li>
+          <li>
+            Optional adventures like jet skiing, scuba diving, and private boat
+            rides
+          </li>
         </ul>
 
         <p className="mt-6">
-          <span className="font-semibold">
-            All tickets include a one-year membership
-          </span>{" "}
-          to our community and invitations to future experiences.
+          Every ticket unlocks an opportunity to interview for membership in
+          <span className="font-semibold"> Project Sanctuary Club</span>,
+          opening the door to future gatherings and a global community built on
+          connection.
         </p>
       </div>
       <p className="font-inter mt-2 text-base/7">
-        Welcome to our{" "}
-        <span className="font-bold">Obonjan Island Experience</span> — where
-        sanctuary meets celebration in the Adriatic Sea.
+        ✨ Welcome to the Obonjan Island Experience — where sanctuary meets
+        celebration, and the Adriatic Sea becomes our stage for connection.
       </p>
       <div className="font-inter mt-6 rounded-md border border-yellow-400 bg-yellow-50 p-6 text-base/7">
         <h3 className="mb-2 text-2xl font-semibold italic">What is Pan?</h3>

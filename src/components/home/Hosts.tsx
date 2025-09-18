@@ -34,9 +34,9 @@ export default function Hosts() {
           Dj Lineup
         </h2>
 
-        <DjDoubleTouch />
-        <Divider />
         <DjDeeMontero />
+        <Divider />
+        <DjDoubleTouch />
         <Divider />
         <DjEelkeKleijn />
         <Divider />
@@ -46,19 +46,19 @@ export default function Hosts() {
         <Divider />
         {/* <DjSaraLandry /> */}
         <Phase2 />
-        <Divider />
+        {/* <Divider />
         <h2 className="font-cinzel text-3xl font-bold mb-8 text-amber-400">
           With support from...
-        </h2>
+        </h2> */}
 
         {/* <DjMariePosa /> */}
         {/* <Divider /> */}
-        <DJErikaAlkemiss />
-        <Divider />
-        <DjSarahHaywood />
-        <Divider />
-        <DJJlittle />
-        <Divider />
+        {/* <DJErikaAlkemiss /> */}
+        {/* <Divider /> */}
+        {/* <DjSarahHaywood /> */}
+        {/* <Divider /> */}
+        {/* <DJJlittle /> */}
+        {/* <Divider /> */}
         <h2 className="font-cinzel text-3xl font-bold mb-8 text-amber-400">
           Special Guests
         </h2>
@@ -66,18 +66,18 @@ export default function Hosts() {
         <Divider />
         {/* <DJSone /> */}
         {/* <Divider /> */}
-        <SimaGandhi />
-        <Divider />
-        <GabrielleManuel />
-        <Divider />
-        <DjMorePower />
-        <Divider />
-        <DJShelleySmith />
+        {/* <SimaGandhi /> */}
+        {/* <Divider /> */}
+        {/* <GabrielleManuel /> */}
+        {/* <Divider /> */}
+        {/* <DjMorePower /> */}
+        {/* <Divider /> */}
+        {/* <DJShelleySmith /> */}
         {/* <Divider /> */}
         {/* <HakeemBourne /> */}
-        <Divider />
-        <NaimaMoussa />
-        <Divider />
+        {/* <Divider /> */}
+        {/* <NaimaMoussa /> */}
+        {/* <Divider /> */}
         <h2 className="font-cinzel text-3xl font-bold mb-8 text-amber-400">
           Culinary and Mixology
         </h2>
