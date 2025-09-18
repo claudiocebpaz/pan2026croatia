@@ -6,4 +6,5 @@ export const NON_EXPIRING_CODES = [
   "ewinginc1111",
   "caaartistaccess2026",
   "pan2025guest",
+  "communityiseverything",
 ];
