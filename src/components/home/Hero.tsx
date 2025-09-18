@@ -6,12 +6,12 @@ const Hero = () => {
       {/* Background video container */}
       <div className="absolute inset-0 z-0">
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=AnpHfk2M8GM"
+          url="https://www.youtube.com/watch?v=0ON0AlJkcHw"
           playing
           loop
           muted
-          width="1920px"
-          height="1080px"
+          width="2496px"
+          height="1404px"
           playbackRate={0.75}
           config={{
             playerVars: { start: 7 }, // empieza en 10 segundos
@@ -43,7 +43,7 @@ const Hero = () => {
           PAN
         </h1>
         <p className="text-white font-quattrocento text-center xl:text-2xl">
-          THE CELEBRATION OF SUBHI BARAKAT
+          THE CELEBRATION OF COMMUNITY
         </p>
       </div>
     </div>

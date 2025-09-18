@@ -1,3 +1,5 @@
+const COHORT_DATE_RANGE = "Tuesday, May 19th — Tuesday, May 26th 2026";
+
 export default function CohortDates() {
   return (
     <div className="bg-yellow-300 py-4" id="cohort-dates">
@@ -7,7 +9,7 @@ export default function CohortDates() {
           <div className="block sm:hidden">
             <div className="text-center">
               <h2 className="font-cinzel text-xl font-semibold tracking-tight text-gray-950 whitespace-nowrap">
-                Tue, Sept 23rd — Mon, Sept 29th
+                {COHORT_DATE_RANGE}
               </h2>
             </div>
           </div>
@@ -16,7 +18,7 @@ export default function CohortDates() {
           <div className="hidden sm:flex sm:justify-center">
             <div className="text-center">
               <h2 className="font-cinzel text-2xl font-semibold tracking-tight text-gray-950 whitespace-nowrap">
-                Tue, Sept 23rd — Mon, Sept 29th
+                {COHORT_DATE_RANGE}
               </h2>
             </div>
           </div>

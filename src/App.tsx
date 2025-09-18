@@ -3,7 +3,7 @@ import "./App.css";
 import AppRoutes from "./routes";
 import Navbar from "./components/shared/NavBar";
 import Footer from "./components/shared/Footer";
-import Banner from "./components/shared/Banner";
+// import Banner from "./components/shared/Banner";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <AppRoutes />
       </main>
       <Footer />
-      <Banner />
+      {/* <Banner /> */}
     </div>
   );
 }
