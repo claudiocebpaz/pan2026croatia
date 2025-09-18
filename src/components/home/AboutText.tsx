@@ -5,9 +5,9 @@ export function AboutText() {
         Six-day Project Sanctuary Community Experience
       </h2>
       <p className="font-quattrocento mt-6 text-xl/8">
-        A six-day community experience unlike any other—set on the stunning
-        Obonjan Island, Croatia, curated to celebrate presence, human
-        connection, and joyful freedom.
+        For six unforgettable days, Obonjan Island belongs entirely to us—an
+        intimate sanctuary in Croatia where every moment is curated to celebrate
+        presence, deep human connection, and the joy of unbridled freedom.
       </p>
       <p className="font-inter mt-6 text-base/7">
         From Tuesday, May 19 to Tuesday, May 26, 2026, join{" "}
