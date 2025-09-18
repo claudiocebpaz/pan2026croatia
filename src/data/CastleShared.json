@@ -1,0 +1,43 @@
+{
+  "text": {
+    "price": "$10,000 - Last One!",
+    "title": "Castle Shared",
+    "subtitle": "Rooms accommodate up to 4 people",
+    "features": [
+      {
+        "name": "All-Inclusive Experience",
+        "description": "Full access to all events, all meals and beverages, the opportunity to enjoy all activities throughout the experience, plus special castle perks reserved for those staying in the building.",
+        "icon": "TicketIcon"
+      },
+      {
+        "name": "Heated Outdoor Pool",
+        "description": "Access to the estate’s 12x5m heated swimming pool and sunny terrace.",
+        "icon": "SunIcon"
+      },
+      {
+        "name": "Banquet Hall & Kitchens",
+        "description": "Share meals in a grand banquet hall and enjoy access to professional kitchens.",
+        "icon": "CakeIcon"
+      },
+      {
+        "name": "Connectivity & Quiet Spaces",
+        "description": "Stay connected with Wi-Fi and find quiet nooks for journaling or co-working.",
+        "icon": "ComputerDesktopIcon"
+      },
+      {
+        "name": "Lush 22-Acre Park",
+        "description": "Explore beautiful private gardens and tranquil forest paths all around the estate.",
+        "icon": "GlobeEuropeAfricaIcon"
+      }
+    ]
+  },
+  "bookingOptions": [
+    {
+      "label": "Buy Last One",
+      "link": "https://buy.stripe.com/fZueVddLo2g39JQ7RIdIA1s",
+      "soldout": false
+    }
+  ],
+  "imagesKey": "SharedRoom",
+  "disclaimer": "Custom room assignments honored upon request"
+}

@@ -1,0 +1,42 @@
+{
+  "text": {
+    "title": "Day & Night Fun Pass",
+    "subtitle": "6 days of connection, celebration, and discovery.",
+    "features": [
+      {
+        "name": "Choose Your Own Hotel",
+        "description": "Enjoy the freedom to stay wherever you'd like—no designated hotel or shuttle.",
+        "icon": "HomeIcon"
+      },
+      {
+        "name": "Afternoon to Late Night Access",
+        "description": "Your ticket covers everything from immersive workshops and ceremonies to live music and late-night magic.",
+        "icon": "SparklesIcon"
+      },
+      {
+        "name": "All Meals & Drinks",
+        "description": "Shared meals, refreshing beverages, and community tables make every bite part of the celebration.",
+        "icon": "CakeIcon"
+      },
+      {
+        "name": "Festival Grounds Access",
+        "description": "Explore the château’s gardens, stages, lounges, and creative spaces—all included in one pass.",
+        "icon": "GlobeEuropeAfricaIcon"
+      },
+      {
+        "name": "Plan Ahead",
+        "description": "Nearby hotels and rental cars are limited. Book accommodations and transportation as soon as you secure your pass.",
+        "icon": "BookOpenIcon"
+      }
+    ]
+  },
+  "bookingOptions": [
+    {
+      "label": "$1,250",
+      "link": "https://buy.stripe.com/aFa5kD8r4bQDaNU0pgdIA1i",
+      "soldout": false
+    }
+  ],
+  "imagesKey": "dayPass",
+  "disclaimer": "Choose your own accommodations—French hotels start at just $45 per night. No designated hotel or shuttle."
+}

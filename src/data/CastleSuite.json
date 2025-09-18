@@ -1,0 +1,37 @@
+{
+  "text": {
+    "price": "$10,000",
+    "title": "Castle Single",
+    "subtitle": "Elegant bedroom within the historic Château.",
+    "features": [
+      {
+        "name": "All-Inclusive Experience",
+        "description": "Full access to all events, all meals and beverages.",
+        "icon": "TicketIcon"
+      },
+      {
+        "name": "19th Century Elegance",
+        "description": "Refined interiors with antique furnishings and hardwood floors.",
+        "icon": "SparklesIcon"
+      },
+      {
+        "name": "Ensuite Bathroom",
+        "description": "Private bath with either tub or shower, hairdryer, towels, and charming details.",
+        "icon": "HomeIcon"
+      },
+      {
+        "name": "Garden & Park Views",
+        "description": "Scenic windows overlooking 22 acres of private wooded parkland.",
+        "icon": "GlobeEuropeAfricaIcon"
+      }
+    ]
+  },
+  "bookingOptions": [
+    {
+      "label": "Sold Out",
+      "link": "https://buy.stripe.com/fZe3elbPm1eX1ag8wZ",
+      "soldout": true
+    }
+  ],
+  "imagesKey": "CastleSuite"
+}

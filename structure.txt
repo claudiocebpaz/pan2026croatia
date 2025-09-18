@@ -1,0 +1,21 @@
+Index(home):
+ - Hero
+ - About
+ - Hosts
+ - Sanctuary
+ - Rooms Overview
+ - FAQ
+
+Rooms:
+- Single Rooms
+  - Grand Jungle Suite
+  - Royal Suite
+  - Garden View Suite
+  - Fishbowl Suite
+  - Bali H
+
+- Double Rooms
+  - skylight Suite
+  - Pool View
+  - Bungalow
+  - Mural

@@ -1,0 +1,43 @@
+{
+  "text": {
+    "price": "$3,000 / person",
+    "title": "Cottage Shared",
+    "subtitle": "Rooms accommodate up to 4 people",
+    "features": [
+      {
+        "name": "All-Inclusive Experience",
+        "description": "Full access to all events, all meals and beverages, and the opportunity to enjoy all activities throughout the experience.",
+        "icon": "TicketIcon"
+      },
+      {
+        "name": "Community Vibes",
+        "description": "Perfect for groups and friends looking to share the experience and space.",
+        "icon": "HeartIcon"
+      },
+      {
+        "name": "Heated Outdoor Pool",
+        "description": "Enjoy the 12x5m heated pool and soak up the sun on the terrace.",
+        "icon": "SunIcon"
+      },
+      {
+        "name": "Shared Kitchens & Dining",
+        "description": "Access to communal kitchen areas and banquet-style dining settings.",
+        "icon": "CakeIcon"
+      },
+      {
+        "name": "Expansive Natural Grounds",
+        "description": "Roam freely through the 22 acres of gardens, forest paths, and green spaces.",
+        "icon": "GlobeEuropeAfricaIcon"
+      }
+    ]
+  },
+  "bookingOptions": [
+    {
+      "label": "Book Now - 1 Room Left!",
+      "link": "https://buy.stripe.com/cN24ipdXuaPxbOU8wX",
+      "soldout": false
+    }
+  ],
+  "disclaimer": "Custom room assignments honored upon request",
+  "imagesKey": "CottageShared"
+}

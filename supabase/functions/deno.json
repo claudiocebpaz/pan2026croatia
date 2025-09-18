@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.ns", "esnext"],
+    "types": []
+  },
+  "importMap": "./import_map.json",
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env index.ts"
+  }
+}

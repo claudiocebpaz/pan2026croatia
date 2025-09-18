@@ -1,0 +1,96 @@
+[
+  {
+    "date": "Tuesday 23rd",
+    "title": "Day 1 - Tuesday 23rd",
+    "items": [
+      "Check In",
+      "Pool Party - Open Dj Set",
+      "Dinner",
+      "Double Touch",
+      "Project Sanctuary DJs TBA"
+    ],
+    "image": "https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/doubletouch.jpeg"
+  },
+  {
+    "date": "Wednesday 24th",
+    "title": "Day 2 - Wednesday 24th",
+    "items": [
+      "Yoga",
+      "Sound Bath",
+      "Breath Work",
+      "Brunch",
+      "Pool Party - Open Dj Set",
+      "Dinner",
+      "Marie Sauvage - Shibari",
+      "Dee Montero",
+      "Project Sanctuary DJs TBA"
+    ],
+    "image": "https://whenwedip.com/wp-content/uploads/2024/03/Dee-Montero.jpg"
+  },
+  {
+    "date": "Thursday 25th",
+    "title": "Day 3 - Thursday 25th",
+    "items": [
+      "Yoga",
+      "Sound Bath",
+      "Breath Work",
+      "Brunch",
+      "Pool Party - Open Set",
+      "Dinner",
+      "Jan Blomqvist",
+      "Elke Kleijn",
+      "Project Sanctuary DJs TBA"
+    ],
+    "image": "https://d21buns5ku92am.cloudfront.net/69775/images/542491-Jan_Blomqvist_2024_copyright_by_Christian_Dammann_01%5B1%5D-223c8c-original-1718704737.jpg"
+  },
+  {
+    "date": "Friday 26th",
+    "title": "Day 4 - Friday 26th",
+    "items": [
+      "Yoga",
+      "Sound Bath",
+      "Breath Work",
+      "Brunch",
+      "Pool Party - Open Set",
+      "Dinner",
+      "Headliner TBA",
+      "Project Sanctuary DJs TBA"
+    ],
+    "image": "https://cdn.pixabay.com/photo/2025/01/31/09/52/dj-9372007_1280.jpg"
+  },
+  {
+    "date": "Saturday 27th",
+    "title": "Day 5 - Saturday 27th",
+    "items": [
+      "Yoga",
+      "Sound Bath",
+      "Breath Work",
+      "Brunch",
+      "Pool Party - Open Set",
+      "Dinner",
+      "Layla Benitez",
+      "Project Sanctuary DJs TBA"
+    ],
+    "image": "https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/layla.jpeg"
+  },
+  {
+    "date": "Sunday 28th",
+    "title": "Day 6 - Sunday 28th",
+    "items": [
+      "Yoga",
+      "Sound Bath",
+      "Breath Work",
+      "Brunch",
+      "Pool Party - Open Set",
+      "Dinner",
+      "Project Sanctuary DJs TBA"
+    ],
+    "image": "https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/img/02.webp"
+  },
+  {
+    "date": "Monday 29th",
+    "title": "Day 7 - Monday 29th",
+    "items": ["Breakfast and Goodbye"],
+    "image": "https://pub-858a9865baad48afa914044f2883a089.r2.dev/img/events/day3.webp"
+  }
+]
