@@ -6,18 +6,18 @@ import DjLaylaBenitez from "./DJLaylaBenitez";
 import DjMarieSauvage from "./DJMarieSauvage";
 import DjDoubleTouch from "./DJDoubleTouch";
 // import DjMariePosa from "./DJMariePosa";
-import DJErikaAlkemiss from "./DJErikaAlkemiss";
-import DjSarahHaywood from "./DJSarahHaywood";
-import DJJlittle from "./DJJlittle";
+// import DJErikaAlkemiss from "./DJErikaAlkemiss";
+// import DjSarahHaywood from "./DJSarahHaywood";
+// import DJJlittle from "./DJJlittle";
 // import DJSone from "./DJSone";
-import SimaGandhi from "./DJSimaGandhi";
-import GabrielleManuel from "./DJGabrielle";
-import DjMorePower from "./DJMorepower";
-import DJShelleySmith from "./DJShelleySmith";
+// import SimaGandhi from "./DJSimaGandhi";
+// import GabrielleManuel from "./DJGabrielle";
+// import DjMorePower from "./DJMorepower";
+// import DJShelleySmith from "./DJShelleySmith";
 import SamathaKennedy from "./DJSamanthaKennedy";
 // import JoshuaSmith from "./DJJoshuaSmith";
 // import HakeemBourne from "./Hakeem";
-import NaimaMoussa from "./NaimaMoussa";
+// import NaimaMoussa from "./NaimaMoussa";
 import Phase2 from "./Phase2";
 
 function Divider() {
