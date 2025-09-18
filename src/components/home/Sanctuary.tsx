@@ -1,6 +1,5 @@
 import { ImageLibrary } from "../../utils/ImageUtils";
 import SanctuaryImage from "./SanctuaryImage";
-import CastleLocation from "./CastleLocation";
 // import GoogleMap from "./GoogleMap";
 
 const SanctuaryOverviewSection = () => {
@@ -10,45 +9,45 @@ const SanctuaryOverviewSection = () => {
     <section className="overflow-hidden bg-white py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-8">
         <h2 className="font-cinzel text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          Welcome to the Castle
+          Welcome to Obonjan Island
         </h2>
         <p className="font-quattrocento mt-2 mb-4 text-lg text-gray-600">
-          Nestled on 22 acres of lush woodland, Château Paradis is the private
-          sanctuary for Subhi’s Birthday Extravaganza. This isn’t just a
-          party—it’s a whole world: community, connection, and castle-core
-          energy.
+          Nestled in the Šibenik Archipelago in Dalmatia, Obonjan Island is
+          Croatia's only relaxing island resort. This isn't just a
+          destination—it's a whole world: community, connection, and island
+          paradise energy.
         </p>
-        <CastleLocation />
         <p className="mt-6 text-gray-600">
-          The estate holds space for 91 guests to sleep onsite in beautifully
-          restored 16th-century rooms, cozy lodges, and a massive
-          air-conditioned cottage. You’ll dance, laugh, rest, and reconnect in
-          spaces once home to poets, philosophers, and now—you.
+          The island spans 136 acres and offers space for 866 guests in
+          exclusive glamping accommodations including Island Homes, Lodges, and
+          O-Tents. You'll dance, laugh, rest, and reconnect in spaces surrounded
+          by the warm waters of the Adriatic Sea, secluded enough to escape the
+          stresses of everyday life.
         </p>
         <p className="mt-6 text-gray-600 mb-4">
-          From the grand banquet hall to the heated pool and open-air terraces,
-          every corner of the château is designed for presence. It’s not just
-          beautiful—it’s intentional. From Subhi hugs to starlit sound baths,
-          this is your home for the week.
+          From the rocky beaches to the outdoor seawater swimming pool and
+          open-air terraces, every corner of Obonjan is designed for presence
+          and relaxation. It's not just beautiful—it's intentional. This is your
+          sanctuary for the week.
         </p>
         <SanctuaryImage />
         <p className="mt-6 text-gray-600">
-          The ground floor features two lounges, two dining rooms, a large
-          kitchen, and a grand banquet hall for up to 120 seated guests. A Pool
-          Hall accommodates an additional 60 seated guests. Bedrooms and
-          bathrooms are spread across the upper floors, all tastefully decorated
-          with 19th-century charm and modern touches.
+          The resort features two main rocky beaches and many rustic beaches
+          around the island, perfect for swimming and sunbathing. The outdoor
+          seawater swimming pool comes with parasols and lounging terraces for
+          ultimate relaxation.
         </p>
         <p className="mt-6 text-gray-600">
-          The estate includes a modern air-conditioned cottage with space for 44
-          guests in 12 bedrooms, an adjoining 3-bedroom apartment, and two
-          charming lodges. In total, it comfortably sleeps up to 91 guests.
+          For dining and entertainment, Obonjan offers 2 restaurants serving
+          fresh local cuisine, 3 bars for socializing, and 1 pizzeria for casual
+          meals. All accommodations are air-conditioned and include free WiFi
+          for all guests.
         </p>
         <p className="mt-6 text-gray-600">
-          Outdoors, enjoy a brand new heated pool, a white stone terrace with
-          loungers, and access to the Charentes River for canoeing, kayaking,
-          and more. The château’s wooded park is ideal for strolls, games, and
-          peaceful moments.
+          Located just 20 minutes from the mainland via speedboat, Obonjan
+          provides the perfect escape from traffic and city rush. The island is
+          pet-friendly, has medical staff always available, and offers tap water
+          that is safe to drink.
         </p>
       </div>
 
@@ -69,18 +68,19 @@ const SanctuaryOverviewSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 mt-6">
         <p className="mt-6 text-gray-600">
           <span className="text-2xl text-black font-semibold font-quattrocento">
-            More than a Venue.
+            More than a Resort.
           </span>
           <br />
-          This is where the dance floor is sacred and the vibes are unmatched.
+          This is where the dance floor meets the sea and the vibes are
+          unmatched.
         </p>
         <p className="mt-6 text-gray-600">
           <span className="text-2xl text-black font-semibold font-quattrocento">
             Made for Sanctuary.
           </span>
           <br />
-          No phones. No clout. No distractions. Just you, 400 beautiful humans,
-          and a place that invites you to fully arrive. Château Paradis is the
+          No phones. No clout. No distractions. Just you, 866 beautiful humans,
+          and an island that invites you to fully arrive. Obonjan is the
           container—what happens inside is up to us.
         </p>
       </div>
