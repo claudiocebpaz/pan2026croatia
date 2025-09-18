@@ -35,6 +35,8 @@ export function AboutText() {
           <li>Private boat transfers between the port and Obonjan Island</li>
           <li>Daily yoga sessions to awaken the body</li>
           <li>Daily breathwork journeys to center the mind</li>
+          <li>Daily sound healing journeys to restore and expand the spirit</li>
+          <li>Pool parties that bring everyone together in the sun</li>
           <li>Community brunch each day to gather and connect</li>
           <li>Community dinners each evening under the Adriatic sky</li>
           <li>
