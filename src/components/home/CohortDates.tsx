@@ -1,4 +1,4 @@
-const COHORT_DATE_RANGE = "Tuesday, May 19th — Monday, May 25th 2026";
+const COHORT_DATE_RANGE = "May 19th — May 25th 2026";
 
 export default function CohortDates() {
   return (
