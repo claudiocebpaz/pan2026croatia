@@ -1,0 +1,145 @@
+{
+  "text": {
+    "title": "Island Home",
+    "subtitle": "Each luxury tent welcomes up to 6 guests for a shared sanctuary experience beneath the stars.",
+    "features": [
+      {
+        "name": "All-Inclusive Experience",
+        "description": "Full access to all events, all meals and beverages, and the opportunity to enjoy all activities throughout the experience.",
+        "icon": "TicketIcon"
+      },
+      {
+        "name": "Premium Furnished Glamping Tent",
+        "description": "Each Luxury tent welcomes up to 6 guests for a shared sanctuary experience beneath the stars.",
+        "icon": "HomeIcon"
+      },
+      {
+        "name": "Luxury showers and Bathrooms included",
+        "description": "High-end bathrooms featuring spacious, modern showers — comfort meets elegance.",
+        "icon": "SparklesIcon"
+      },
+      {
+        "name": "Power & Lighting",
+        "description": "Tents equipped with lighting and a charging station for phone and tablet.",
+        "icon": "BoltIcon"
+      },
+      {
+        "name": "Expansive Natural Grounds",
+        "description": "Roam freely through the 22 acres of gardens, forest paths, and green spaces.",
+        "icon": "GlobeEuropeAfricaIcon"
+      }
+    ]
+  },
+  "selectors": {
+    "level1Options": [
+      {
+        "id": 1,
+        "title": "Island Home S",
+        "description": "Standard 1-2ppl"
+      },
+      {
+        "id": 2,
+        "title": "Island Home M",
+        "description": "Standard 2-4ppl"
+      }
+    ],
+    "level2Options": {
+      "1": [
+        {
+          "id": 1,
+          "title": "Standard 1-2ppl - Early Bird Pricing",
+          "description": "€5,950",
+          "link": "https://buy.stripe.com/aFa6oH36KcUH4pw5JAdIA1u",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 2,
+          "title": "Standard 5 People",
+          "description": "$4,500",
+          "link": "https://buy.stripe.com/00w28r7n04obf4a2xodIA1o",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 3,
+          "title": "Standard 6 People",
+          "description": "$5,500",
+          "link": "https://buy.stripe.com/00weVd7n07Anf4a3BsdIA1q",
+          "soldout": false,
+          "oneSpotLeft": false
+        }
+      ],
+      "2": [
+        {
+          "id": 4,
+          "title": "Premium 1-2 People",
+          "description": "$3,500",
+          "link": "https://buy.stripe.com/4gMcN5azc6wjbRYc7YdIA1m",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 5,
+          "title": "Premium 3 People",
+          "description": "$4,500",
+          "link": "https://buy.stripe.com/6oU6oH0YC07V9JQc7YdIA1k",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 6,
+          "title": "Premium 4 People",
+          "description": "$5,500",
+          "link": "https://buy.stripe.com/4gM14n22G6wj5tA9ZQdIA1j",
+          "soldout": false,
+          "oneSpotLeft": false
+        }
+      ]
+    },
+    "legacy": {
+      "cohorts": [
+        {
+          "id": 1,
+          "title": "1 or 2 People",
+          "description": "$5,000",
+          "URL": "https://buy.stripe.com/7sY8wP36K8Er6xEdc2dIA1a",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 2,
+          "title": "3 People",
+          "description": "$6,500",
+          "URL": "https://buy.stripe.com/5kA6qx8Da3n5dX214f",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 3,
+          "title": "4 People",
+          "description": "8,000",
+          "URL": "https://buy.stripe.com/5kA6qx8Da3n5dX214f",
+          "soldout": false,
+          "oneSpotLeft": false
+        }
+      ],
+      "bookingOptions": {
+        "1": {
+          "label": "Buy Now - $5,000",
+          "link": "https://buy.stripe.com/bIY029bPm6zh8CIfZ8"
+        },
+        "2": {
+          "label": "Buy Now - $6,500",
+          "link": "https://buy.stripe.com/5kA6qx8Da3n5dX214f"
+        },
+        "3": {
+          "label": "Buy Now - $8,000",
+          "link": "https://buy.stripe.com/5kA6qx8Da3n5dX214f"
+        }
+      }
+    }
+  },
+  "disclaimer": "Fees are per tent, not per person.",
+  "imagesKey": "TentShared"
+}

@@ -7,6 +7,7 @@ import SelectorSection, {
   Level1Option,
   Level2Option,
 } from "../home/SelectorSection";
+import RoomPricing from "./RoomPricing";
 
 type RoomProps = {
   roomData: {
@@ -150,6 +151,7 @@ const Room: React.FC<RoomProps> = ({
           </p>
         )}
       </div>
+      <RoomPricing />
     </div>
   );
 };
