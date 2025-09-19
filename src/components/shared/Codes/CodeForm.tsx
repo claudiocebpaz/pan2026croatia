@@ -2,7 +2,6 @@ import { FormEvent } from "react";
 
 export const CodeForm = ({
   onSubmit,
-  onBack,
   loading,
   error,
   code,
@@ -11,7 +10,6 @@ export const CodeForm = ({
   setEmail,
 }: {
   onSubmit: (e: FormEvent) => void;
-  onBack: () => void;
   loading: boolean;
   error: string;
   code: string;
@@ -20,12 +18,15 @@ export const CodeForm = ({
   setEmail: (value: string) => void;
 }) => {
   return (
-    <div className="w-full max-w-[50%] lg:max-w-[20%] mx-auto md:bg-transparent md:border-2 md:border-yellow-500 md:rounded-xl md:p-8">
+    <div className="w-full max-w-[90%] md:max-w-[40%] mx-auto md:bg-transparent md:border-2 md:border-yellow-500 md:rounded-xl md:p-8">
       <img
         src="/logosanctuary.webp"
         alt="Project Sanctuary Logo"
-        className="mx-auto mb-6 w-auto h-56 object-contain"
+        className="mx-auto mb-4 w-auto h-56 object-contain"
       />
+      <h2 className="text-5xl font-bold text-yellow-300 text-center mb-6">
+        PAN 2026
+      </h2>
       <form className="space-y-6" onSubmit={onSubmit}>
         {/* Mantener estructura HTML y clases CSS originales */}
         <div>
@@ -85,15 +86,6 @@ export const CodeForm = ({
             ) : (
               "Access"
             )}
-          </button>
-        </div>
-        <div className="mt-4 flex justify-center w-full">
-          <button
-            type="button"
-            onClick={onBack}
-            className="text-yellow-500 hover:text-yellow-400 text-sm font-medium flex items-center"
-          >
-            <span className="mr-1">↩</span> Back
           </button>
         </div>
       </form>

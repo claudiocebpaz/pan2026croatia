@@ -1,0 +1,76 @@
+# 🧹 Clinerules del Proyecto
+
+## 1. 🚫 No ejecutar `npm run dev` ni `build` automáticamente
+
+- **Regla:** Evita cualquier automatización que dispare `npm run dev` o `npm run build`, ya que el entorno siempre está corriendo.
+- **Ejemplo Incorrecto:**
+  ```json
+  "scripts": {
+    "start": "npm run dev && npm run build"
+  }
+  ```
+- **Ejemplo Correcto:**
+  ```json
+  "scripts": {
+    "start": "echo 'Use only when needed.'"
+  }
+  ```
+
+---
+
+## 2. 🔍 Consistencia de código
+
+- **Regla:** Mantén estilo de código uniforme:
+  - Nombres en `camelCase`
+  - Organización de carpetas coherente
+  - Estilo de funciones consistente
+  - Misma convención para imports
+
+- **Ejemplo Incorrecto:**
+  ```js
+  function MyFunc() {}
+  const other_func = () => {};
+  ```
+- **Ejemplo Correcto:**
+  ```js
+  const myFunc = () => {};
+  const otherFunc = () => {};
+  ```
+
+---
+
+## 3. 🧠 Pragmatismo ante todo
+
+- **Regla:** No sobreoptimizar ni documentar de más. Código simple, directo y con propósito.
+- **Criterio:** Si hay que hacer un workaround o atajo, documentarlo brevemente.
+
+- **Ejemplo:**
+  ```ts
+  // Usamos esta validación corta para evitar overhead innecesario
+  if (!user) return;
+  ```
+
+---
+
+## 4. ✍️ Código inline explicativo cuando haga falta
+
+- **Regla:** Agrega comentarios inline si el código no es evidente a primera vista.
+- **Ejemplo:**
+  ```ts
+  const buffer = 60 * 1000; // 1 minuto en milisegundos
+  const deadline = Date.now() + buffer;
+  ```
+
+---
+
+## 5. 📚 Documentar pensando en el "yo" de 3 meses después
+
+- **Regla:** Documentar lo justo para que otro dev (o tú) entienda por qué se hizo algo.
+- **Evita:** Comentarios obvios.
+- **Incluye:** Contexto, decisiones técnicas y notas sobre cambios relevantes.
+
+- **Ejemplo:**
+  ```ts
+  // Este endpoint usa versión v2 porque v3 tiene un bug en paginación
+  fetch('/api/data/v2');
+  ```
