@@ -24,9 +24,7 @@ export const CodeForm = ({
         alt="Project Sanctuary Logo"
         className="mx-auto mb-4 w-auto h-56 object-contain"
       />
-      <h2 className="text-5xl font-bold text-yellow-300 text-center mb-6">
-        PAN 2026
-      </h2>
+      <h2 className="text-5xl  text-yellow-300 text-center mb-6">PAN 2026</h2>
       <form className="space-y-6" onSubmit={onSubmit}>
         {/* Mantener estructura HTML y clases CSS originales */}
         <div>
