@@ -1,12 +1,7 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo } from "react";
 import { ImageLibrary } from "../../utils/ImageUtils";
 import ImagesSection, { ImageItem } from "../home/ImagesSection";
 import TextSection, { FeatureItem } from "../home/TextSection";
-import SelectorSection, {
-  CohortItem,
-  Level1Option,
-  Level2Option,
-} from "../home/SelectorSection";
 import RoomPricing from "./RoomPricing";
 
 type RoomProps = {
@@ -32,10 +27,10 @@ type RoomProps = {
   };
   layoutType?: "even" | "uneven";
   selectors?: {
-    cohorts: CohortItem[];
+    cohorts: any[];
     bookingOptions: { [key: number]: { label: string; link: string } };
-    level1Options?: Level1Option[];
-    level2Options?: Record<number, Level2Option[]>;
+    level1Options?: any[];
+    level2Options?: Record<number, any[]>;
   };
 };
 
@@ -46,35 +41,10 @@ const Room: React.FC<RoomProps> = ({
 }) => {
   const { text, bookingOptions, imagesKey, disclaimer } = roomData;
 
-  const cohorts: CohortItem[] = selectors?.cohorts || [];
-  const level1Options = selectors?.level1Options;
-  const level2Options = selectors?.level2Options;
-
   // 🏆 Optimización: Solo obtener imágenes una vez
   const images: ImageItem[] = useMemo(
     () => ImageLibrary.getImages(imagesKey),
     [imagesKey]
-  );
-
-  // State for hierarchical selection
-  const [selectedLevel1, setSelectedLevel1] = useState<Level1Option | null>(
-    level1Options?.[0] || null
-  );
-  const [selectedLevel2, setSelectedLevel2] = useState<Level2Option | null>(
-    null
-  );
-
-  // State for legacy cohort selection
-  const availableCohorts = useMemo(
-    () => cohorts.filter((cohort) => !cohort.soldout),
-    [cohorts]
-  );
-  const defaultSelected = useMemo(
-    () => (availableCohorts.length ? availableCohorts[0] : cohorts[0]),
-    [availableCohorts, cohorts]
-  );
-  const [selectedCohort, setSelectedCohort] = useState<CohortItem>(
-    defaultSelected || cohorts[0]
   );
 
   const isEvenLayout = layoutType === "even";
@@ -109,39 +79,13 @@ const Room: React.FC<RoomProps> = ({
             />
           </div>
         </div>
+      </div>
+      <RoomPricing bookingOptions={bookingOptions} />
 
-        {/* Selector moved below photos and descriptions */}
-        <div className="mt-8">
-          {selectors ? (
-            level1Options && level2Options ? (
-              <SelectorSection
-                level1Options={level1Options}
-                level2Options={level2Options}
-                selectedLevel1={selectedLevel1}
-                setSelectedLevel1={setSelectedLevel1}
-                selectedLevel2={selectedLevel2}
-                setSelectedLevel2={setSelectedLevel2}
-              />
-            ) : cohorts.length > 0 ? (
-              <SelectorSection
-                cohorts={cohorts}
-                bookingOptions={selectors.bookingOptions}
-                selectedCohort={selectedCohort}
-                setSelectedCohort={setSelectedCohort}
-              />
-            ) : (
-              <div className="text-center text-gray-500">
-                No booking options available
-              </div>
-            )
-          ) : (
-            <SelectorSection bookingOptions={bookingOptions || []} />
-          )}
-        </div>
-
-        {/* Disclaimer moved below selector */}
-        {disclaimer && (
-          <p className="mt-4 text-sm text-gray-500 italic text-center">
+      {/* Disclaimer moved below RoomPricing */}
+      {disclaimer && (
+        <div className="mx-auto max-w-10xl px-6 lg:px-8 mt-2">
+          <p className="text-sm text-gray-500 italic text-center">
             {disclaimer.split("\n").map((line, idx) => (
               <React.Fragment key={idx}>
                 {line}
@@ -149,9 +93,8 @@ const Room: React.FC<RoomProps> = ({
               </React.Fragment>
             ))}
           </p>
-        )}
-      </div>
-      <RoomPricing bookingOptions={bookingOptions} />
+        </div>
+      )}
     </div>
   );
 };

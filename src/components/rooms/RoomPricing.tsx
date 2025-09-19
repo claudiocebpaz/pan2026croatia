@@ -108,7 +108,10 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
             </thead>
             <tbody className="divide-y divide-gray-200">
               {tiers.map((t) => (
-                <tr key={t.name}>
+                <tr
+                  key={t.name}
+                  className={t.active === false ? "opacity-50" : ""}
+                >
                   <td className="px-4 py-1 font-medium text-gray-900">
                     {t.name}
                   </td>
@@ -122,7 +125,13 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
                     {fmt(t.personNight)}
                   </td>
                   <td className="px-4 py-1 text-right">
-                    <span className="inline-flex items-center rounded bg-yellow-100 px-2 py-1 font-semibold text-gray-900 ring-1 ring-inset ring-yellow-300 tabular-nums">
+                    <span
+                      className={`inline-flex items-center rounded px-2 py-1 font-semibold tabular-nums ring-1 ring-inset ${
+                        t.active === false
+                          ? "bg-gray-100 text-gray-500 ring-gray-200"
+                          : "bg-yellow-100 text-gray-900 ring-yellow-300"
+                      }`}
+                    >
                       {fmt(t.unit6Nights)}
                     </span>
                   </td>
@@ -137,8 +146,17 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
           {tiers.map((t) => (
             <div
               key={t.name}
-              className="rounded-lg border border-gray-300 p-4 shadow-xs bg-white"
+              className={`rounded-lg border border-gray-300 p-4 shadow-xs bg-white relative ${
+                t.active === false ? "overflow-hidden" : ""
+              }`}
             >
+              {t.active === false && (
+                <div className="absolute inset-0 bg-black/60 z-10 flex items-center justify-center">
+                  <span className="text-white font-semibold text-sm">
+                    Not Available
+                  </span>
+                </div>
+              )}
               <div className="mb-2 flex items-center justify-between">
                 <h3 className="text-sm font-medium text-gray-900">{t.name}</h3>
                 <span className="text-xs rounded-full border border-yellow-300 px-2 py-0.5 bg-yellow-100 text-yellow-700">
@@ -183,7 +201,7 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
           <div className="mt-6 text-center">
             <a
               href={activeTier?.link || activeBookingOption?.link}
-              className={`inline-block font-semibold py-3 px-8 rounded-lg transition-colors duration-200 w-full md:w-auto ${
+              className={`inline-block font-semibold py-3 px-8 rounded-lg transition-colors duration-200 w-full md:w-1/4 ${
                 activeTier?.active === false
                   ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                   : "bg-yellow-500 hover:bg-yellow-600 text-gray-900"
