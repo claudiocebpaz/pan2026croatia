@@ -11,20 +11,20 @@ function Manifiesto() {
         keywords="manifesto, sanctuary, retreat, wellness, community, transformation, Croatia"
       />
 
-      <div className="min-h-screen bg-black py-20">
+      <div className="min-h-screen bg-black py-10">
         <div className="max-w-4xl mx-auto px-6">
           {/* Logo Section */}
-          <div className="flex justify-center mb-12">
+          <div className="flex justify-center mb-6">
             <img
               src={Logo}
               alt="Project Sanctuary Logo"
-              className="h-auto w-1/5 max-w-xs"
+              className="h-auto w-3/5 max-w-xs"
             />
           </div>
 
           {/* Header Section */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-cinzel font-bold text-white mb-6">
+            <h1 className="text-3xl md:text-5xl font-cinzel font-bold text-white mb-6">
               The Project Sanctuary Manifesto
             </h1>
             <p className="text-xl text-amber-400 font-cinzel italic mb-4">
@@ -35,9 +35,10 @@ function Manifiesto() {
 
           {/* Content Section */}
           <div className="prose prose-lg max-w-none text-gray-200">
-            <div className="bg-gray-950 font-inter rounded-lg shadow-xl p-8 md:p-12 space-y-8 border border-gray-800">
+            <div className="bg-gray-950 font-inter rounded-lg shadow-xl p-4 md:p-12 space-y-8 border border-gray-800">
               <p className="text-lg leading-relaxed">
                 Welcome. Welcome to Sanctuary.
+                <br />
                 <br />
                 When you stepped off the boat and placed your feet upon this
                 island, you crossed a threshold.
