@@ -8,6 +8,7 @@ type Tier = {
   unit6Nights: number;
   link?: string;
   active?: boolean;
+  unavailableMessage?: string;
 };
 
 type BookingOption = {
@@ -18,6 +19,7 @@ type BookingOption = {
 
 type RoomPricingProps = {
   bookingOptions?: BookingOption[];
+  unavailableMessage?: string;
 };
 
 const tiers: Tier[] = [
@@ -38,6 +40,7 @@ const tiers: Tier[] = [
     unit6Nights: 7000,
     link: "https://buy.stripe.com/fZeeVd0zq1eX1agfZ0",
     active: false,
+    unavailableMessage: "Price Increase Soon",
   },
   {
     name: "Final Tier",
@@ -47,6 +50,7 @@ const tiers: Tier[] = [
     unit6Nights: 8400,
     link: "https://buy.stripe.com/fZeeVd0zq1eX1agfZ0",
     active: false,
+    unavailableMessage: "What are you waiting for?",
   },
 ];
 
@@ -57,7 +61,10 @@ const fmt = (n: number) =>
     maximumFractionDigits: 0,
   }).format(n);
 
-export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
+export default function RoomPricing({
+  bookingOptions,
+  unavailableMessage = "Not Available",
+}: RoomPricingProps) {
   // Encontrar el primer link activo (no soldout)
   const activeBookingOption = bookingOptions?.find((option) => !option.soldout);
 
@@ -153,7 +160,7 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
               {t.active === false && (
                 <div className="absolute inset-0 bg-black/60 z-10 flex items-center justify-center">
                   <span className="text-white font-semibold text-sm">
-                    Not Available
+                    {t.unavailableMessage || unavailableMessage}
                   </span>
                 </div>
               )}
