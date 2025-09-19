@@ -88,13 +88,21 @@ export function AboutText() {
         Welcome to{" "}
         <span className="font-extrabold text-lg">Project Sanctuary.</span> 🏝️💛
       </p>
-      <div className="mt-2 text-center sm:text-left">
+      <div className="mt-2 text-center sm:text-left grid grid-cols-1 sm:grid-cols-2 gap-4">
         {/* Button linking to /program */}
         <a
           href="/program"
-          className="mt-2 inline-block rounded-md bg-yellow-300 px-6 py-3 text-base font-medium text-black hover:bg-yellow-500 transition"
+          className="mt-2 inline-block rounded-md bg-yellow-300 px-6 py-3 text-base font-medium text-black hover:bg-yellow-500 transition w-full text-center"
         >
           View the Program
+          <span className="text-xl"> &rarr;</span>
+        </a>
+        {/* Button linking to /manifiesto */}
+        <a
+          href="/manifiesto"
+          className="mt-2 inline-block rounded-md bg-gray-800 px-6 py-3 text-base font-medium text-white hover:bg-gray-600 transition w-full text-center"
+        >
+          Manifesto
           <span className="text-xl"> &rarr;</span>
         </a>
       </div>

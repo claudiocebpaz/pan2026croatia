@@ -39,4 +39,9 @@ export const faqs = [
     answer:
       "**Getting to Obonjan Island is simple, and once you book your ticket we will guide you every step of the way.**\n\n📍 [View on Google Maps](https://maps.app.goo.gl/K5YE1MEHijy2PhUa9)\n\n**Step 1: Fly into Split International Airport (SPU)**\nBook your flights to and from Split, Croatia. This is the gateway to Obonjan Island.\n\n**Step 2: Share your flight details**\nAfter securing your ticket to Project Sanctuary you will submit your flight information to our team. This reserves your spot on our private group transport.\n\n**Step 3: Private ground transfer**\nWhen you land our team will welcome you at Split Airport and bring you by private bus to the port.\n\n**Step 4: Private boat to Obonjan Island**\nFrom the port you will board our private boat and cross the Adriatic Sea to Obonjan Island, your home for six unforgettable days.",
   },
+  {
+    question: "Will the artists be staying on site?",
+    answer:
+      "Some of our artists have chosen to remain on the island for a day or two, sharing in the Sanctuary spirit beyond their performances. It is essential that every interaction honors the same values of love, respect, and presence that define our community. Any fan-like behavior, harassment, or breach of these values will result in immediate removal from the festival.",
+  },
 ];

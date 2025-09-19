@@ -1,95 +1,101 @@
 [
   {
     "date": "Tuesday 19th",
-    "title": "Day 1 - Tuesday 19th",
+    "title": "Day 1 — Tuesday 19th",
     "items": [
       "Check In",
-      "Pool Party - Open Dj Set",
+      "Orientation",
+      "Opening Gathering",
       "Dinner",
-      "Dee Montero",
-      "Project Sanctuary DJs TBA"
+      "Opening Ceremony",
+      "Dee Montero"
     ],
     "image": "https://whenwedip.com/wp-content/uploads/2024/03/Dee-Montero.jpg"
   },
   {
     "date": "Wednesday 20th",
-    "title": "Day 2 - Wednesday 20th",
+    "title": "Day 2 — Wednesday 20th",
     "items": [
+      "Coffee and Light Breakfast",
       "Yoga",
       "Sound Bath",
       "Breath Work",
       "Brunch",
-      "Pool Party - Open Dj Set",
+      "Pool Party — TBA",
       "Dinner",
-      "Marie Sauvage - Shibari",
-      "Double Touch",
-      "Project Sanctuary DJs TBA"
+      "Double Touch"
     ],
     "image": "https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/doubletouch.jpeg"
   },
   {
     "date": "Thursday 21st",
-    "title": "Day 3 - Thursday 21st",
+    "title": "Day 3 — Thursday 21st",
     "items": [
+      "Coffee and Light Breakfast",
       "Yoga",
       "Sound Bath",
       "Breath Work",
       "Brunch",
-      "Pool Party - Open Set",
+      "Pool Party — TBA",
       "Dinner",
+      "Marie Sauvage — Shibari",
+      "Eelke Kleijn",
       "Jan Blomqvist",
-      "Elke Kleijn",
-      "Project Sanctuary DJs TBA"
+      "Surprise Event"
     ],
     "image": "https://d21buns5ku92am.cloudfront.net/69775/images/542491-Jan_Blomqvist_2024_copyright_by_Christian_Dammann_01%5B1%5D-223c8c-original-1718704737.jpg"
   },
   {
     "date": "Friday 22nd",
-    "title": "Day 4 - Friday 22nd",
+    "title": "Day 4 — Friday 22nd",
     "items": [
+      "Coffee and Light Breakfast",
       "Yoga",
       "Sound Bath",
       "Breath Work",
       "Brunch",
-      "Pool Party - Open Set",
+      "Pool Party — TBA",
       "Dinner",
       "Headliner TBA",
-      "Project Sanctuary DJs TBA"
+      "Surprise Sunrise Set — TBA"
     ],
     "image": "https://cdn.pixabay.com/photo/2025/01/31/09/52/dj-9372007_1280.jpg"
   },
   {
     "date": "Saturday 23rd",
-    "title": "Day 5 - Saturday 23rd",
+    "title": "Day 5 — Saturday 23rd",
     "items": [
+      "Coffee and Light Breakfast",
       "Yoga",
       "Sound Bath",
       "Breath Work",
       "Brunch",
-      "Pool Party - Open Set",
+      "Pool Party — TBA",
       "Dinner",
       "Layla Benitez",
-      "Project Sanctuary DJs TBA"
+      "Surprise Sunrise Set — TBA"
     ],
     "image": "https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/layla.jpeg"
   },
   {
     "date": "Sunday 24th",
-    "title": "Day 6 - Sunday 24th",
+    "title": "Day 6 — Sunday 24th",
     "items": [
+      "Coffee and Light Breakfast",
       "Yoga",
       "Sound Bath",
       "Breath Work",
       "Brunch",
-      "Pool Party - Open Set",
+      "Pool Party — TBA",
       "Dinner",
-      "Project Sanctuary DJs TBA"
+      "Closing Ceremony",
+      "Surprise Final Events"
     ],
     "image": "https://pub-858a9865baad48afa914044f2883a089.r2.dev/img/events/day3.webp"
   },
   {
     "date": "Monday 25th",
-    "title": "Day 7 - Monday 25th",
+    "title": "Day 7 — Monday 25th",
     "items": ["Breakfast and Goodbye"],
     "image": "https://pub-858a9865baad48afa914044f2883a089.r2.dev/img/events/day3.webp"
   }
