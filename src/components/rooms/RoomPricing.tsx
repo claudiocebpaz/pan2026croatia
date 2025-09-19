@@ -139,7 +139,7 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
               key={t.name}
               className="rounded-lg border border-gray-300 p-4 shadow-xs bg-white"
             >
-              <div className="mb-0.1 flex items-center justify-between">
+              <div className="mb-2 flex items-center justify-between">
                 <h3 className="text-sm font-medium text-gray-900">{t.name}</h3>
                 <span className="text-xs rounded-full border border-yellow-300 px-2 py-0.5 bg-yellow-100 text-yellow-700">
                   {t.unit6Nights < highestPrice
@@ -149,26 +149,26 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
               </div>
               <dl className="grid grid-cols-2 gap-x-3 gap-y-1 text-sm text-gray-700">
                 <dt className="text-gray-500 px-2 py-0.5">Room / Night</dt>
-                <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-2">
+                <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-1">
                   {fmt(t.unitNight)}
                 </dd>
 
                 <dt className="text-gray-500 px-2 py-0.5">6-Nights / Person</dt>
-                <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-2">
+                <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-1">
                   {fmt(t.person6Nights)}
                 </dd>
 
                 <dt className="text-gray-500 px-2 py-0.5">
                   Per Night / Person
                 </dt>
-                <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-2">
+                <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-1">
                   {fmt(t.personNight)}
                 </dd>
 
                 <div className="col-span-2 rounded-md bg-yellow-50 ring-1 ring-inset ring-yellow-200 px-2 py-0.5 ">
                   <div className="grid grid-cols-2 items-center">
                     <dt className="text-yellow-900 font-bold">Room 6-Nights</dt>
-                    <dd className="text-right font-bold tabular-nums text-gray-900">
+                    <dd className="text-lg text-right font-bold tabular-nums text-gray-900">
                       {fmt(t.unit6Nights)}
                     </dd>
                   </div>
@@ -183,9 +183,16 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
           <div className="mt-6 text-center">
             <a
               href={activeTier?.link || activeBookingOption?.link}
-              className="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 w-full md:w-auto"
+              className={`inline-block font-semibold py-3 px-8 rounded-lg transition-colors duration-200 w-full md:w-auto ${
+                activeTier?.active === false
+                  ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                  : "bg-yellow-500 hover:bg-yellow-600 text-gray-900"
+              }`}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={(e) =>
+                activeTier?.active === false && e.preventDefault()
+              }
             >
               {activeTier
                 ? `Book ${activeTier.name}`
