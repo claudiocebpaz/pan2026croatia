@@ -143,7 +143,7 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
                 <h3 className="text-sm font-medium text-gray-900">{t.name}</h3>
                 <span className="text-xs rounded-full border border-yellow-300 px-2 py-0.5 bg-yellow-100 text-yellow-700">
                   {t.unit6Nights < highestPrice
-                    ? `-${calculateDiscount(t.unit6Nights)}%`
+                    ? `${calculateDiscount(t.unit6Nights)}% discount`
                     : "6 nights"}
                 </span>
               </div>
@@ -153,21 +153,21 @@ export default function RoomPricing({ bookingOptions }: RoomPricingProps) {
                   {fmt(t.unitNight)}
                 </dd>
 
-                <dt className="text-gray-500 px-2 py-0.5">Person / 6 nights</dt>
+                <dt className="text-gray-500 px-2 py-0.5">6-Nights / Person</dt>
                 <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-2">
                   {fmt(t.person6Nights)}
                 </dd>
 
-                <dt className="text-gray-500 px-2 py-0.5">Person / night</dt>
+                <dt className="text-gray-500 px-2 py-0.5">
+                  Per Night / Person
+                </dt>
                 <dd className="text-right font-medium tabular-nums text-gray-900 px-2 py-2">
                   {fmt(t.personNight)}
                 </dd>
 
                 <div className="col-span-2 rounded-md bg-yellow-50 ring-1 ring-inset ring-yellow-200 px-2 py-0.5 ">
                   <div className="grid grid-cols-2 items-center">
-                    <dt className="text-yellow-900 font-bold">
-                      Unit / 6 nights
-                    </dt>
+                    <dt className="text-yellow-900 font-bold">Room 6-Nights</dt>
                     <dd className="text-right font-bold tabular-nums text-gray-900">
                       {fmt(t.unit6Nights)}
                     </dd>
