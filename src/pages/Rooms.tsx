@@ -3,7 +3,6 @@ import SEO from "../components/shared/SEO";
 import Room from "../components/rooms/Room";
 import RoomSeparator from "../components/rooms/RoomSeparator";
 
-import CastleSuiteData from "../data/CastleSuite.json";
 // import SharedRoomData from "../data/SharedRoom.json";
 import CastleSharedData from "../data/CastleShared.json";
 import DayPassData from "../data/DayPass.json";
