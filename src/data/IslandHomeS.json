@@ -1,32 +1,57 @@
 {
   "text": {
-    "title": "Island Home",
-    "subtitle": "Each luxury tent welcomes up to 6 guests for a shared sanctuary experience beneath the stars.",
+    "title": "Island Home S",
+    "subtitle": "Your private sanctuary in the Adriatic—eco-friendly comfort, sunlit spaces, and peaceful privacy for six unforgettable days.",
     "features": [
       {
-        "name": "All-Inclusive Experience",
-        "description": "Full access to all events, all meals and beverages, and the opportunity to enjoy all activities throughout the experience.",
-        "icon": "TicketIcon"
-      },
-      {
-        "name": "Premium Furnished Glamping Tent",
-        "description": "Each Luxury tent welcomes up to 6 guests for a shared sanctuary experience beneath the stars.",
+        "name": "Island Home S — A cozy one-bedroom retreat",
+        "description": "An intimate hideaway designed for two, offering comfort and privacy in the heart of the Adriatic.",
         "icon": "HomeIcon"
       },
       {
-        "name": "Luxury showers and Bathrooms included",
-        "description": "High-end bathrooms featuring spacious, modern showers — comfort meets elegance.",
+        "name": "Thoughtful Design in Every Island Home",
+        "description": "Sustainable materials and warm details that balance simplicity and elegance, ensuring a welcoming space.",
         "icon": "SparklesIcon"
       },
       {
-        "name": "Power & Lighting",
-        "description": "Tents equipped with lighting and a charging station for phone and tablet.",
+        "name": "Private En-suite Shower & Toilette",
+        "description": "Your own modern bathroom facilities for convenience and comfort during your stay.",
+        "icon": "BathIcon"
+      },
+      {
+        "name": "Air Conditioning",
+        "description": "Enjoy cool, restful nights after sun-filled days on the island.",
         "icon": "BoltIcon"
       },
       {
-        "name": "Expansive Natural Grounds",
-        "description": "Roam freely through the 22 acres of gardens, forest paths, and green spaces.",
-        "icon": "GlobeEuropeAfricaIcon"
+        "name": "Fresh Linens & Towels",
+        "description": "Soft, clean linens and bath towels provided to keep you refreshed throughout your retreat.",
+        "icon": "SparklesIcon"
+      },
+      {
+        "name": "Refrigerator & Safe-Deposit Box",
+        "description": "Store your drinks, snacks, and valuables with ease and peace of mind.",
+        "icon": "CubeIcon"
+      },
+      {
+        "name": "Wardrobe with Mirror",
+        "description": "Unpack and feel at home with a wardrobe and mirror for your essentials.",
+        "icon": "ClipboardIcon"
+      },
+      {
+        "name": "European Power Sockets",
+        "description": "Effortless charging for all your devices, right at your fingertips.",
+        "icon": "PlugIcon"
+      },
+      {
+        "name": "Complimentary Wi-Fi",
+        "description": "Stay connected with hotspots across the island, so you’re never out of touch.",
+        "icon": "WifiIcon"
+      },
+      {
+        "name": "More Than Just a Room",
+        "description": "Each space is a haven to rest, recharge, and return to the heart of the gathering renewed.",
+        "icon": "HeartIcon"
       }
     ]
   },
@@ -141,5 +166,36 @@
     }
   },
   "disclaimer": "Fees are per tent, not per person.",
-  "imagesKey": "TentShared"
+  "imagesKey": "IslandHomeS",
+  "pricingTiers": [
+    {
+      "name": "Early Bird",
+      "unitNight": 992,
+      "person6Nights": 2975,
+      "personNight": 496,
+      "unit6Nights": 5950,
+      "link": "https://buy.stripe.com/aFa6oH36KcUH4pw5JAdIA1u",
+      "active": true
+    },
+    {
+      "name": "Tier 2",
+      "unitNight": 1167,
+      "person6Nights": 3500,
+      "personNight": 583,
+      "unit6Nights": 7000,
+      "link": "https://buy.stripe.com/00w28r7n04obf4a2xodIA1o",
+      "active": false,
+      "unavailableMessage": "Price Increase Soon"
+    },
+    {
+      "name": "Final Tier",
+      "unitNight": 1400,
+      "person6Nights": 4200,
+      "personNight": 700,
+      "unit6Nights": 8400,
+      "link": "https://buy.stripe.com/00weVd7n07Anf4a3BsdIA1q",
+      "active": false,
+      "unavailableMessage": "What are you waiting for?"
+    }
+  ]
 }

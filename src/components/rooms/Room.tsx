@@ -24,8 +24,10 @@ type RoomProps = {
     }[];
     imagesKey: string;
     disclaimer?: string;
+    pricingTiers?: any[];
   };
   layoutType?: "even" | "uneven";
+  pricingTiers?: any[];
   selectors?: {
     cohorts: any[];
     bookingOptions: { [key: number]: { label: string; link: string } };
@@ -34,7 +36,11 @@ type RoomProps = {
   };
 };
 
-const Room: React.FC<RoomProps> = ({ roomData, layoutType = "uneven" }) => {
+const Room: React.FC<RoomProps> = ({
+  roomData,
+  layoutType = "uneven",
+  pricingTiers,
+}) => {
   const { text, bookingOptions, imagesKey, disclaimer } = roomData;
 
   // 🏆 Optimización: Solo obtener imágenes una vez
@@ -76,7 +82,10 @@ const Room: React.FC<RoomProps> = ({ roomData, layoutType = "uneven" }) => {
           </div>
         </div>
       </div>
-      <RoomPricing bookingOptions={bookingOptions} />
+      <RoomPricing
+        bookingOptions={bookingOptions}
+        tiers={pricingTiers || roomData.pricingTiers}
+      />
 
       {/* Disclaimer moved below RoomPricing */}
       {disclaimer && (

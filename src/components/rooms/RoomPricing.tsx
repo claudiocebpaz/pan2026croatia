@@ -20,9 +20,10 @@ type BookingOption = {
 type RoomPricingProps = {
   bookingOptions?: BookingOption[];
   unavailableMessage?: string;
+  tiers?: Tier[];
 };
 
-const tiers: Tier[] = [
+const defaultTiers: Tier[] = [
   {
     name: "Early Bird",
     unitNight: 992,
@@ -64,6 +65,7 @@ const fmt = (n: number) =>
 export default function RoomPricing({
   bookingOptions,
   unavailableMessage = "Not Available",
+  tiers = defaultTiers,
 }: RoomPricingProps) {
   // Encontrar el primer link activo (no soldout)
   const activeBookingOption = bookingOptions?.find((option) => !option.soldout);

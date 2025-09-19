@@ -21,11 +21,14 @@ function Rooms() {
         image="/logosanctuary.webp"
       />
       <RoomSeparator
-        title="Single Rooms"
-        subtitle="Step into a birthday dream—refined suites where comfort meets celebration."
+        title="Island Homes"
+        subtitle="Your private eco-luxury sanctuary in the Adriatic—six days of sun, sea, and community on our very own island."
         id="single-rooms"
       />
-      <Room roomData={IslandHomeSData} />
+      <Room
+        roomData={IslandHomeSData}
+        pricingTiers={IslandHomeSData.pricingTiers}
+      />
       <Room roomData={CastleSuiteData} />
 
       <RoomSeparator
@@ -40,16 +43,7 @@ function Rooms() {
         subtitle="A luxury shared glamping experience for up to 6 people"
         id="tent-rooms"
       />
-      <Room
-        roomData={TentSharedData}
-        layoutType="even"
-        selectors={{
-          level1Options: TentSharedData.selectors.level1Options,
-          level2Options: TentSharedData.selectors.level2Options,
-          cohorts: TentSharedData.selectors.legacy.cohorts,
-          bookingOptions: TentSharedData.selectors.legacy.bookingOptions,
-        }}
-      />
+      <Room roomData={TentSharedData} layoutType="even" />
 
       <RoomSeparator
         title="Day/Night Play Pass"

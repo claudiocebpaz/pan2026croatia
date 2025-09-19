@@ -353,5 +353,32 @@
       "src": "https://pub-256cbac8c7ba4219be4d35b225b48d92.r2.dev/img/02.webp",
       "alt": "Day Pass Image 8"
     }
+  ],
+  "IslandHomeS": [
+    {
+      "id": 7,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/07/GLE_9563.jpg",
+      "alt": "Day Pass Image 7"
+    },
+    {
+      "id": 17,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/07/DJI_0553.jpg",
+      "alt": "Day Pass Image 7"
+    },
+    {
+      "id": 1,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/05/TM-7.jpg",
+      "alt": "Day Pass Image 8"
+    },
+    {
+      "id": 8,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/05/TM-28.jpg",
+      "alt": "Day Pass Image 8"
+    },
+    {
+      "id": 18,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/07/GLE_0084.jpg",
+      "alt": "Day Pass Image 8"
+    }
   ]
 }
