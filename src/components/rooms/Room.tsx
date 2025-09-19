@@ -34,11 +34,7 @@ type RoomProps = {
   };
 };
 
-const Room: React.FC<RoomProps> = ({
-  roomData,
-  layoutType = "uneven",
-  selectors,
-}) => {
+const Room: React.FC<RoomProps> = ({ roomData, layoutType = "uneven" }) => {
   const { text, bookingOptions, imagesKey, disclaimer } = roomData;
 
   // 🏆 Optimización: Solo obtener imágenes una vez
