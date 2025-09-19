@@ -56,9 +56,7 @@ export default function FAQ() {
                         ),
                       }}
                     >
-                      {faq.question === "How do I get there?"
-                        ? "**Getting to Project Sanctuary**\n\n📍 [View on Google Maps](https://maps.app.goo.gl/3vsHnx4yn7gvMqeu5)\n\nThe exact address will be shared in your confirmation email.\n\nWe recommend:\n\n- 🚐 Taking the designated shuttles from nearby hotels\n- 🚕 Using shared transportation\n\n📵 **Heads up:** Cell service in the area may be limited.\n\nBe sure to:\n- Download the map in advance\n- Plan your route ahead of time"
-                        : faq.answer}
+                      {faq.answer}
                     </ReactMarkdown>
                   </DisclosurePanel>
                 </Disclosure>
