@@ -1,11 +1,11 @@
 {
   "text": {
-    "title": "Island Home S",
+    "title": "Island Home M",
     "subtitle": "Your private sanctuary in the Adriatic—eco-friendly comfort, sunlit spaces, and peaceful privacy for six unforgettable days.",
     "features": [
       {
-        "name": "Island Home S — A cozy one-bedroom retreat",
-        "description": "An intimate hideaway designed for two, offering comfort and privacy in the heart of the Adriatic.",
+        "name": "Island Home M — A versatile two-bedroom residence, welcoming two or four guests with ease",
+        "description": "An intimate hideaway designed for up to four, offering comfort and privacy in the heart of the Adriatic.",
         "icon": "HomeIcon"
       },
       {
@@ -166,34 +166,34 @@
     }
   },
   "disclaimer": "Fees are per tent, not per person.",
-  "imagesKey": "IslandHomeS",
+  "imagesKey": "IslandHomeM",
   "pricingTiers": [
     {
       "name": "Early Bird",
-      "unitNight": 992,
-      "person6Nights": 2975,
-      "personNight": 496,
-      "unit6Nights": 5950,
-      "link": "https://buy.stripe.com/aFa6oH36KcUH4pw5JAdIA1u",
+      "unitNight": 1417,
+      "person6Nights": 2125,
+      "personNight": 354,
+      "unit6Nights": 8500,
+      "link": "https://buy.stripe.com/4gMaEX36KdYL2hoc7YdIA1x",
       "active": true
     },
     {
       "name": "Tier 2",
-      "unitNight": 1167,
-      "person6Nights": 3500,
-      "personNight": 583,
-      "unit6Nights": 7000,
-      "link": "https://buy.stripe.com/bJedR9cHk2g3bRY6NEdIA1v",
+      "unitNight": 1667,
+      "person6Nights": 2500,
+      "personNight": 417,
+      "unit6Nights": 10000,
+      "link": "https://buy.stripe.com/28E5kD7n05sf2hogoedIA1y",
       "active": false,
       "unavailableMessage": "Price Increase Soon"
     },
     {
       "name": "Final Tier",
-      "unitNight": 1400,
-      "person6Nights": 4200,
-      "personNight": 700,
-      "unit6Nights": 8400,
-      "link": "https://buy.stripe.com/eVq3cv0YCf2P5tA2xodIA1w",
+      "unitNight": 2000,
+      "person6Nights": 3000,
+      "personNight": 500,
+      "unit6Nights": 12000,
+      "link": "https://buy.stripe.com/6oUfZh8r48Er1dkfkadIA1z",
       "active": false,
       "unavailableMessage": "What are you waiting for?"
     }

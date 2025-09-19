@@ -10,6 +10,7 @@ import DayPassData from "../data/DayPass.json";
 import CottageSharedData from "../data/CottageShared.json";
 import TentSharedData from "../data/TentShared.json";
 import IslandHomeSData from "../data/IslandHomeS.json";
+import IslandHomeMData from "../data/IslandHomeM.json";
 
 function Rooms() {
   return (
@@ -29,7 +30,11 @@ function Rooms() {
         roomData={IslandHomeSData}
         pricingTiers={IslandHomeSData.pricingTiers}
       />
-      <Room roomData={CastleSuiteData} />
+      <Room
+        roomData={IslandHomeMData}
+        pricingTiers={IslandHomeMData.pricingTiers}
+        layoutType="even"
+      />
 
       <RoomSeparator
         title="Shared Rooms"
