@@ -1,0 +1,196 @@
+{
+  "text": {
+    "title": "Glamping Lodge S",
+    "subtitle": "✨ More than a place to stay — it’s a front-row seat to the island’s natural poetry.",
+    "features": [
+      {
+        "name": "Glamping Lodge S",
+        "description": "One-bedroom retreat for two, nestled in the island’s pine forest or with optional sea and sunset views.",
+        "icon": "TreeIcon"
+      },
+      {
+        "name": "En-suite Shower & Toilette",
+        "description": "Private bathroom with modern shower and toilette.",
+        "icon": "BathIcon"
+      },
+      {
+        "name": "Sleeping Options",
+        "description": "Double or single beds available for your comfort.",
+        "icon": "BedIcon"
+      },
+      {
+        "name": "Air Conditioning",
+        "description": "Stay cool and comfortable with air conditioning.",
+        "icon": "BoltIcon"
+      },
+      {
+        "name": "Refrigerator & Safe",
+        "description": "Keep your food, drinks, and valuables secure.",
+        "icon": "CubeIcon"
+      },
+      {
+        "name": "Wardrobe & Hairdryer",
+        "description": "Wardrobe with mirror and hairdryer provided.",
+        "icon": "ClipboardIcon"
+      },
+      {
+        "name": "Linens & Towels",
+        "description": "Fresh bath towels and bed linens included.",
+        "icon": "SparklesIcon"
+      },
+      {
+        "name": "Power Sockets",
+        "description": "USB and European sockets for all your devices.",
+        "icon": "PlugIcon"
+      },
+      {
+        "name": "Complimentary Wi-Fi",
+        "description": "Stay connected with Wi-Fi hotspots across the island.",
+        "icon": "WifiIcon"
+      }
+    ]
+  },
+  "selectors": {
+    "level1Options": [
+      {
+        "id": 1,
+        "title": "Island Home S",
+        "description": "Standard 1-2ppl"
+      },
+      {
+        "id": 2,
+        "title": "Island Home M",
+        "description": "Standard 2-4ppl"
+      }
+    ],
+    "level2Options": {
+      "1": [
+        {
+          "id": 1,
+          "title": "Standard 1-2ppl - Early Bird Pricing",
+          "description": "€5,950",
+          "link": "https://buy.stripe.com/aFa6oH36KcUH4pw5JAdIA1u",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 2,
+          "title": "Standard 5 People",
+          "description": "$4,500",
+          "link": "https://buy.stripe.com/00w28r7n04obf4a2xodIA1o",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 3,
+          "title": "Standard 6 People",
+          "description": "$5,500",
+          "link": "https://buy.stripe.com/00weVd7n07Anf4a3BsdIA1q",
+          "soldout": false,
+          "oneSpotLeft": false
+        }
+      ],
+      "2": [
+        {
+          "id": 4,
+          "title": "Premium 1-2 People",
+          "description": "$3,500",
+          "link": "https://buy.stripe.com/4gMcN5azc6wjbRYc7YdIA1m",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 5,
+          "title": "Premium 3 People",
+          "description": "$4,500",
+          "link": "https://buy.stripe.com/6oU6oH0YC07V9JQc7YdIA1k",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 6,
+          "title": "Premium 4 People",
+          "description": "$5,500",
+          "link": "https://buy.stripe.com/4gM14n22G6wj5tA9ZQdIA1j",
+          "soldout": false,
+          "oneSpotLeft": false
+        }
+      ]
+    },
+    "legacy": {
+      "cohorts": [
+        {
+          "id": 1,
+          "title": "1 or 2 People",
+          "description": "$5,000",
+          "URL": "https://buy.stripe.com/7sY8wP36K8Er6xEdc2dIA1a",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 2,
+          "title": "3 People",
+          "description": "$6,500",
+          "URL": "https://buy.stripe.com/5kA6qx8Da3n5dX214f",
+          "soldout": false,
+          "oneSpotLeft": false
+        },
+        {
+          "id": 3,
+          "title": "4 People",
+          "description": "8,000",
+          "URL": "https://buy.stripe.com/5kA6qx8Da3n5dX214f",
+          "soldout": false,
+          "oneSpotLeft": false
+        }
+      ],
+      "bookingOptions": {
+        "1": {
+          "label": "Buy Now - $5,000",
+          "link": "https://buy.stripe.com/bIY029bPm6zh8CIfZ8"
+        },
+        "2": {
+          "label": "Buy Now - $6,500",
+          "link": "https://buy.stripe.com/5kA6qx8Da3n5dX214f"
+        },
+        "3": {
+          "label": "Buy Now - $8,000",
+          "link": "https://buy.stripe.com/5kA6qx8Da3n5dX214f"
+        }
+      }
+    }
+  },
+  "disclaimer": "Fees are per tent, not per person.",
+  "imagesKey": "GlammpingLodgeS",
+  "pricingTiers": [
+    {
+      "name": "Early Bird",
+      "unitNight": 1417,
+      "person6Nights": 2125,
+      "personNight": 354,
+      "unit6Nights": 8500,
+      "link": "https://buy.stripe.com/4gMaEX36KdYL2hoc7YdIA1x",
+      "active": true
+    },
+    {
+      "name": "Tier 2",
+      "unitNight": 1667,
+      "person6Nights": 2500,
+      "personNight": 417,
+      "unit6Nights": 10000,
+      "link": "https://buy.stripe.com/28E5kD7n05sf2hogoedIA1y",
+      "active": false,
+      "unavailableMessage": "Price Increase Soon"
+    },
+    {
+      "name": "Final Tier",
+      "unitNight": 2000,
+      "person6Nights": 3000,
+      "personNight": 500,
+      "unit6Nights": 12000,
+      "link": "https://buy.stripe.com/6oUfZh8r48Er1dkfkadIA1z",
+      "active": false,
+      "unavailableMessage": "What are you waiting for?"
+    }
+  ]
+}

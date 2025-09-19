@@ -10,6 +10,7 @@ import CottageSharedData from "../data/CottageShared.json";
 import TentSharedData from "../data/TentShared.json";
 import IslandHomeSData from "../data/IslandHomeS.json";
 import IslandHomeMData from "../data/IslandHomeM.json";
+import GlampingLodgeS from "../data/GlampingLodgeS.json";
 
 function Rooms() {
   return (
@@ -36,12 +37,14 @@ function Rooms() {
       />
 
       <RoomSeparator
-        title="Shared Rooms"
-        subtitle="Where friends unwind, stories unfold, and memories are shared under one roof."
+        title="Glamping Lodges"
+        subtitle="Experience eco-chic lodges that blend rustic charm with modern luxury, surrounded by breathtaking Adriatic views."
         id="double-rooms"
       />
-      <Room roomData={CastleSharedData} layoutType="even" />
-      <Room roomData={CottageSharedData} />
+      <Room
+        roomData={GlampingLodgeS}
+        pricingTiers={GlampingLodgeS.pricingTiers}
+      />
       <RoomSeparator
         title="Glamping"
         subtitle="A luxury shared glamping experience for up to 6 people"
