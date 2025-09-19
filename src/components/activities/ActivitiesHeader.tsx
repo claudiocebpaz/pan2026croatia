@@ -2,9 +2,10 @@ import { getRandomGlobalImage, ImageData } from "../../utils/ImageUtils";
 import LogoImage from "../../assets/logosanctuary.webp";
 
 const stats = [
-  { name: "Days of Celebration", value: "6" },
-  { name: "Planned Activities", value: "25+" },
-  { name: "Musical Sets", value: "17+" },
+  { name: "Days/Nights of celebration", value: "6" },
+  { name: "Planned Activities", value: "40+" },
+  { name: "Musical Sets", value: "20+" },
+  { name: "Surprises", value: "Many" },
   { name: "New Friendships", value: "Countless" },
 ];
 
@@ -36,20 +37,36 @@ export default function ActivitiesHeader() {
             className="h-16 sm:h-24 w-auto"
           />
           <h2 className="font-cinzel text-4xl font-bold tracking-tight text-white sm:font-semibold sm:text-5xl">
-            Subhi’s Birthday Celebration
+            A Sanctuary Celebration
           </h2>
         </div>
         <p className="font-quattrocento mt-8 text-lg font-medium text-pretty text-gray-100 sm:text-xl/8 sm:mx-auto sm:max-w-2xl lg:max-w-max">
-          A magical gathering to celebrate Subhi’s birthday in a French castle
-          with friends, music, and unexpected moments of joy—off the grid, from
-          the heart.
+          For six days a private island in Croatia becomes the heart of
+          Sanctuary. The Adriatic surrounds us in turquoise silence, and every
+          sunrise opens the door to wonder. Music drifts across the water,
+          laughter rises from hidden paths, and the night sky becomes our
+          cathedral.
         </p>
         <p className="font-quattrocento mt-8 text-lg font-medium text-pretty text-gray-100 sm:text-xl/8 sm:mx-auto sm:max-w-2xl lg:max-w-max">
-          No filters, no feeds—just deep presence, serendipitous connections,
-          and timeless experiences curated by Project Sanctuary.
+          There are no filters and no feeds. Only presence. Only the joy of
+          greeting a stranger who may become family, the freedom to dance
+          beneath the stars, the courage to ask for a hug or to share silence.
+          Meals become communion. Serendipity becomes our guide.
+        </p>
+        <p className="font-quattrocento mt-8 text-lg font-medium text-pretty text-gray-100 sm:text-xl/8 sm:mx-auto sm:max-w-2xl lg:max-w-max">
+          Every corner of the island holds a secret waiting to be revealed. Each
+          day unfolds like a story written in real time by those who gather.
+          What we create together will live far beyond the shores we leave
+          behind.
+        </p>
+        <p className="font-quattrocento mt-8 text-lg font-medium text-pretty text-gray-100 sm:text-xl/8 sm:mx-auto sm:max-w-2xl lg:max-w-max">
+          This is the last semi public Sanctuary celebration. A closing chapter
+          held in beauty and fire. An island fairytale of connection, play, and
+          soul filled intimacy, offered once before the gates close and
+          Sanctuary becomes fully private.
         </p>
         <p className="font-quattrocento mt-8 text-lg font-semibold font-stretch-75% text-pretty text-yellow-300 sm:text-xl/8 sm:mx-auto sm:max-w-2xl lg:max-w-max">
-          You’re not just attending a party. You’re stepping into a fairytale of
+          You're not just attending a party. You're stepping into a fairytale of
           connection, laughter, and soul-filled celebration.
         </p>
         <div className="mx-auto mt-8 max-w-2xl lg:mx-0 lg:max-w-none">
