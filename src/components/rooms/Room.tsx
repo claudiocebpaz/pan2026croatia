@@ -151,7 +151,7 @@ const Room: React.FC<RoomProps> = ({
           </p>
         )}
       </div>
-      <RoomPricing />
+      <RoomPricing bookingOptions={bookingOptions} />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import CastleSharedData from "../data/CastleShared.json";
 import DayPassData from "../data/DayPass.json";
 import CottageSharedData from "../data/CottageShared.json";
 import TentSharedData from "../data/TentShared.json";
+import IslandHomeSData from "../data/IslandHomeS.json";
 
 function Rooms() {
   return (
@@ -24,6 +25,7 @@ function Rooms() {
         subtitle="Step into a birthday dream—refined suites where comfort meets celebration."
         id="single-rooms"
       />
+      <Room roomData={IslandHomeSData} />
       <Room roomData={CastleSuiteData} />
 
       <RoomSeparator

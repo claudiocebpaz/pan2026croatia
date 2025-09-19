@@ -11,7 +11,7 @@ export default defineConfig({
     compression({ algorithm: "brotliCompress", ext: ".br" }),
   ],
   server: {
-    allowedHosts: ["b1545c9c8940.ngrok-free.app", "localhost"],
+    allowedHosts: ["51fe6c3c6066.ngrok-free.app", "localhost"],
   },
   build: {
     chunkSizeWarningLimit: 600,
