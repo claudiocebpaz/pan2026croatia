@@ -82,7 +82,7 @@ export default function Hosts() {
           Culinary and Mixology
         </h2>
         <SamathaKennedy />
-        {/* <Divider /> */}
+        <Divider />
         {/* <JoshuaSmith /> */}
       </div>
     </section>
