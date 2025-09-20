@@ -64,7 +64,9 @@ const fmt = (n: number) =>
   new Intl.NumberFormat("es-ES", {
     style: "currency",
     currency: "EUR",
+    minimumFractionDigits: 0,
     maximumFractionDigits: 0,
+    useGrouping: true,
   }).format(n);
 
 export default function RoomPricing({
