@@ -2,7 +2,7 @@ export function AboutText() {
   return (
     <div className="text-gray-900 lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
       <h2 className="font-cinzel text-4xl font-semibold tracking-tight sm:text-5xl">
-        Six-day Project Sanctuary Community Experience
+        Project Sanctuary Presents... Early Bird Prelaunch!
       </h2>
       <p className="font-quattrocento mt-6 text-xl/8">
         For six unforgettable days, Obonjan Island belongs entirely to us—an
@@ -10,8 +10,7 @@ export function AboutText() {
         presence, deep human connection, and the joy of unbridled freedom.
       </p>
       <p className="font-inter mt-6 text-base/7">
-        From Tuesday, May 19 to Tuesday, May 26, 2026, join{" "}
-        <span className="font-semibold">Subhi Barakat</span> and the
+        From May 19 to May 25, 2026, join the
         <span className="font-semibold"> Project Sanctuary community</span> for
         a week of
         <span className="font-semibold">
@@ -74,14 +73,14 @@ export function AboutText() {
           once the nymph Syrinx.
         </p>
         <p className="mt-3 not-italic leading-relaxed text-gray-800">
-          His music is earthy and instinctive—less refined than Apollo’s, but
+          His music is earthy and instinctive, less refined than Apollo’s but
           charged with emotion and spontaneity. Heard drifting through forests
           and fields, his melodies could enchant animals, and even spark
           dancing.
         </p>
         <p className="mt-3 not-italic leading-relaxed text-gray-800">
-          So in a musical sense, Pan embodies the untamed, primal side of
-          music—a direct channel to nature, feeling, and freedom.
+          So in a musical sense, Pan embodies the untamed, primal side of music,
+          a direct channel to nature, feeling, and freedom.
         </p>
       </div>
       <p className="font-inter mt-8 text-base/7">
