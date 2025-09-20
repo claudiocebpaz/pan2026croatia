@@ -4,8 +4,6 @@ import Room from "../components/rooms/Room";
 import RoomSeparator from "../components/rooms/RoomSeparator";
 
 // import SharedRoomData from "../data/SharedRoom.json";
-import DayPassData from "../data/DayPass.json";
-import TentSharedData from "../data/TentShared.json";
 import IslandHomeSData from "../data/IslandHomeS.json";
 import IslandHomeMData from "../data/IslandHomeM.json";
 import GlampingLodgeSData from "../data/GlampingLodgeS.json";
