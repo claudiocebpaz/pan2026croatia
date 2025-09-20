@@ -167,7 +167,7 @@
     }
   },
   "disclaimer": "Fees are per tent, not per person.",
-  "imagesKey": "GlammpingLodgeS",
+  "imagesKey": "GlammpingLodgeM",
   "pricingTiers": [
     {
       "name": "Final Tier",
@@ -175,7 +175,7 @@
       "person6Nights": 2760,
       "personNight": 460,
       "unit6Nights": 11040,
-      "link": "https://buy.stripe.com/00waEX7n02g36xEfkadIA1D",
+      "link": "https://buy.stripe.com/5kQeVd9v807V4pw0pgdIA1G",
       "active": true,
       "unavailableMessage": "What are you waiting for?"
     }

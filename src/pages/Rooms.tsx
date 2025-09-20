@@ -11,6 +11,7 @@ import IslandHomeMData from "../data/IslandHomeM.json";
 import GlampingLodgeSData from "../data/GlampingLodgeS.json";
 import GlampingLodgeSSeaSunsetData from "../data/GlampingLodgeSSeaSunset.json";
 import GlampingLodgeMData from "../data/GlampingLodgeM.json";
+import GlampingLodgeMSeaSunsetData from "../data/GlampingLodgeMSeaSunset.json";
 
 function Rooms() {
   return (
@@ -54,6 +55,11 @@ function Rooms() {
         roomData={GlampingLodgeMData}
         pricingTiers={GlampingLodgeMData.pricingTiers}
       />
+      <Room
+        roomData={GlampingLodgeMSeaSunsetData}
+        pricingTiers={GlampingLodgeMSeaSunsetData.pricingTiers}
+        layoutType="even"
+      />
       <RoomSeparator
         title="Glamping"
         subtitle="A luxury shared glamping experience for up to 6 people"
@@ -62,11 +68,11 @@ function Rooms() {
       <Room roomData={TentSharedData} layoutType="even" />
 
       <RoomSeparator
-        title="Day/Night Play Pass"
-        subtitle="6 days of music, magic, zero responsibilities—just vibes, views, and birthday mischief."
+        title="O-Tents"
+        subtitle="Sleep under canvas with comfort reimagined—our O-Tents blend the charm of camping with the ease of modern amenities."
         id="day-passes"
       />
-      <Room roomData={DayPassData} />
+      {/* <Room roomData={DayPassData} /> */}
 
       {/* <Room roomData={RiverRoomData} />
       <Room roomData={SkylightRoomData} layoutType="even" />
