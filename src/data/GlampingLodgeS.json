@@ -165,30 +165,30 @@
   "pricingTiers": [
     {
       "name": "Early Bird",
-      "unitNight": 1417,
-      "person6Nights": 2125,
-      "personNight": 354,
-      "unit6Nights": 8500,
-      "link": "https://buy.stripe.com/4gMaEX36KdYL2hoc7YdIA1x",
+      "unitNight": 850,
+      "person6Nights": 2550,
+      "personNight": 425,
+      "unit6Nights": 5100,
+      "link": "https://buy.stripe.com/9B600jbDg5sf3ls7RIdIA1A",
       "active": true
     },
     {
       "name": "Tier 2",
-      "unitNight": 1667,
-      "person6Nights": 2500,
-      "personNight": 417,
-      "unit6Nights": 10000,
-      "link": "https://buy.stripe.com/28E5kD7n05sf2hogoedIA1y",
+      "unitNight": 1000,
+      "person6Nights": 3000,
+      "personNight": 500,
+      "unit6Nights": 6000,
+      "link": "https://buy.stripe.com/eVq5kDgXA8ErcW2c7YdIA1B",
       "active": false,
       "unavailableMessage": "Price Increase Soon"
     },
     {
       "name": "Final Tier",
-      "unitNight": 2000,
-      "person6Nights": 3000,
-      "personNight": 500,
-      "unit6Nights": 12000,
-      "link": "https://buy.stripe.com/6oUfZh8r48Er1dkfkadIA1z",
+      "unitNight": 1200,
+      "person6Nights": 3600,
+      "personNight": 600,
+      "unit6Nights": 7200,
+      "link": "https://buy.stripe.com/dRm7sLbDg9IvbRY2xodIA1C",
       "active": false,
       "unavailableMessage": "What are you waiting for?"
     }
