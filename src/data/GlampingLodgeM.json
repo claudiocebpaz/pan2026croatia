@@ -174,20 +174,20 @@
     },
     {
       "name": "Tier 2",
-      "unitNight": 1667,
-      "person6Nights": 2500,
-      "personNight": 417,
-      "unit6Nights": 10000,
+      "unitNight": 1375,
+      "person6Nights": 2063,
+      "personNight": 344,
+      "unit6Nights": 8250,
       "link": "https://buy.stripe.com/cNi9AT4aO4ob09ggoedIA1I",
       "active": false,
       "unavailableMessage": "Price Increase Soon"
     },
     {
       "name": "Final Tier",
-      "unitNight": 2000,
-      "person6Nights": 3000,
-      "personNight": 500,
-      "unit6Nights": 12000,
+      "unitNight": 1600,
+      "person6Nights": 2400,
+      "personNight": 400,
+      "unit6Nights": 9600,
       "link": "https://buy.stripe.com/3cI7sL36K5sf4pweg6dIA1H",
       "active": false,
       "unavailableMessage": "What are you waiting for?"
