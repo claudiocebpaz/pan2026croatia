@@ -414,20 +414,20 @@
     }
   ],
   "GlammpingLodgeS": [
-    {
-      "id": 1,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/04/1R2A7467-HDR.jpg",
-      "alt": "Island Home M Image 1"
-    },
+        {
+          "id": 3,
+          "src": "https://obonjan.hr/wp-content/uploads/2023/05/K2A2695-HDRgraded.jpg",
+          "alt": "Island Home M Image 3"
+        },
     {
       "id": 2,
       "src": "https://obonjan.hr/wp-content/uploads/2023/07/GLE_0321-HDR.jpg",
       "alt": "Island Home M Image 2"
     },
     {
-      "id": 3,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/05/K2A2695-HDRgraded.jpg",
-      "alt": "Island Home M Image 3"
+      "id": 1,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/04/1R2A7467-HDR.jpg",
+      "alt": "Island Home M Image 1"
     },
     {
       "id": 4,
