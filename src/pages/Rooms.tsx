@@ -8,7 +8,9 @@ import DayPassData from "../data/DayPass.json";
 import TentSharedData from "../data/TentShared.json";
 import IslandHomeSData from "../data/IslandHomeS.json";
 import IslandHomeMData from "../data/IslandHomeM.json";
-import GlampingLodgeS from "../data/GlampingLodgeS.json";
+import GlampingLodgeSData from "../data/GlampingLodgeS.json";
+import GlampingLodgeSSeaSunsetData from "../data/GlampingLodgeSSeaSunset.json";
+import GlampingLodgeMData from "../data/GlampingLodgeM.json";
 
 function Rooms() {
   return (
@@ -40,8 +42,17 @@ function Rooms() {
         id="double-rooms"
       />
       <Room
-        roomData={GlampingLodgeS}
-        pricingTiers={GlampingLodgeS.pricingTiers}
+        roomData={GlampingLodgeSData}
+        pricingTiers={GlampingLodgeSData.pricingTiers}
+      />
+      <Room
+        roomData={GlampingLodgeSSeaSunsetData}
+        pricingTiers={GlampingLodgeSSeaSunsetData.pricingTiers}
+        layoutType="even"
+      />
+      <Room
+        roomData={GlampingLodgeMData}
+        pricingTiers={GlampingLodgeMData.pricingTiers}
       />
       <RoomSeparator
         title="Glamping"

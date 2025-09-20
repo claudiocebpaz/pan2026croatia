@@ -1,13 +1,19 @@
 {
   "text": {
-    "title": "Glamping Lodge S Standard",
+    "title": "Glamping Lodge M Sunset & Sea View",
     "subtitle": "✨ More than a place to stay — it’s a front-row seat to the island’s natural poetry.",
     "features": [
       {
-        "name": "Glamping Lodge S",
-        "description": "One-bedroom retreat for two, nestled in the island’s pine forest or with optional sea and sunset views.",
+        "name": "Glamping Lodge M — Sea View",
+        "description": "Two-bedroom lodge for two or four, opening out to the endless Adriatic. Your own coastal sanctuary with space to share.",
         "icon": "TreeIcon"
       },
+      {
+        "name": "Glamping Lodge M — Sunset View",
+        "description": "Two-bedroom lodge for two or four, with a terrace facing the most enchanting island sunsets. A perfect blend of space, beauty, and connection.",
+        "icon": "TreeIcon"
+      },
+
       {
         "name": "En-suite Shower & Toilette",
         "description": "Private bathroom with modern shower and toilette.",
@@ -164,32 +170,13 @@
   "imagesKey": "GlammpingLodgeS",
   "pricingTiers": [
     {
-      "name": "Early Bird",
-      "unitNight": 1417,
-      "person6Nights": 2125,
-      "personNight": 354,
-      "unit6Nights": 8500,
-      "link": "https://buy.stripe.com/4gMaEX36KdYL2hoc7YdIA1x",
-      "active": true
-    },
-    {
-      "name": "Tier 2",
-      "unitNight": 1667,
-      "person6Nights": 2500,
-      "personNight": 417,
-      "unit6Nights": 10000,
-      "link": "https://buy.stripe.com/28E5kD7n05sf2hogoedIA1y",
-      "active": false,
-      "unavailableMessage": "Price Increase Soon"
-    },
-    {
       "name": "Final Tier",
-      "unitNight": 2000,
-      "person6Nights": 3000,
-      "personNight": 500,
-      "unit6Nights": 12000,
-      "link": "https://buy.stripe.com/6oUfZh8r48Er1dkfkadIA1z",
-      "active": false,
+      "unitNight": 1840,
+      "person6Nights": 2760,
+      "personNight": 460,
+      "unit6Nights": 11040,
+      "link": "https://buy.stripe.com/00waEX7n02g36xEfkadIA1D",
+      "active": true,
       "unavailableMessage": "What are you waiting for?"
     }
   ]

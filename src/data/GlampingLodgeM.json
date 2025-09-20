@@ -1,11 +1,11 @@
 {
   "text": {
-    "title": "Glamping Lodge S Standard",
+    "title": "Glamping Lodge M Standard",
     "subtitle": "✨ More than a place to stay — it’s a front-row seat to the island’s natural poetry.",
     "features": [
       {
-        "name": "Glamping Lodge S",
-        "description": "One-bedroom retreat for two, nestled in the island’s pine forest or with optional sea and sunset views.",
+        "name": "Glamping Lodge M",
+        "description": "Two-bedroom retreat for up to four, nestled in the island’s pine forest or with optional sea and sunset views.",
         "icon": "TreeIcon"
       },
       {
@@ -161,15 +161,15 @@
     }
   },
   "disclaimer": "Fees are per tent, not per person.",
-  "imagesKey": "GlammpingLodgeS",
+  "imagesKey": "GlammpingLodgeM",
   "pricingTiers": [
     {
       "name": "Early Bird",
-      "unitNight": 1417,
-      "person6Nights": 2125,
-      "personNight": 354,
-      "unit6Nights": 8500,
-      "link": "https://buy.stripe.com/4gMaEX36KdYL2hoc7YdIA1x",
+      "unitNight": 1133,
+      "person6Nights": 1700,
+      "personNight": 283,
+      "unit6Nights": 6800,
+      "link": "https://buy.stripe.com/bJecN5cHk8Er1dk7RIdIA1J",
       "active": true
     },
     {
@@ -178,7 +178,7 @@
       "person6Nights": 2500,
       "personNight": 417,
       "unit6Nights": 10000,
-      "link": "https://buy.stripe.com/28E5kD7n05sf2hogoedIA1y",
+      "link": "https://buy.stripe.com/cNi9AT4aO4ob09ggoedIA1I",
       "active": false,
       "unavailableMessage": "Price Increase Soon"
     },
@@ -188,7 +188,7 @@
       "person6Nights": 3000,
       "personNight": 500,
       "unit6Nights": 12000,
-      "link": "https://buy.stripe.com/6oUfZh8r48Er1dkfkadIA1z",
+      "link": "https://buy.stripe.com/3cI7sL36K5sf4pweg6dIA1H",
       "active": false,
       "unavailableMessage": "What are you waiting for?"
     }
