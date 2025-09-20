@@ -9,6 +9,11 @@ type Tier = {
   link?: string;
   active?: boolean;
   unavailableMessage?: string;
+  bookingLinks?: Array<{
+    label: string;
+    link: string;
+    description?: string;
+  }>;
 };
 
 type BookingOption = {
@@ -205,26 +210,42 @@ export default function RoomPricing({
           ))}
         </div>
 
-        {/* Botón fuera de la tabla para desktop y mobile */}
+        {/* Botones fuera de la tabla para desktop y mobile */}
         {(activeTier || activeBookingOption) && (
-          <div className="mt-6 text-center">
-            <a
-              href={activeTier?.link || activeBookingOption?.link}
-              className={`inline-block font-semibold py-3 px-8 rounded-lg transition-colors duration-200 w-full md:w-1/4 ${
-                activeTier?.active === false
-                  ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                  : "bg-yellow-500 hover:bg-yellow-600 text-gray-900"
-              }`}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={(e) =>
-                activeTier?.active === false && e.preventDefault()
-              }
-            >
-              {activeTier
-                ? `Book ${activeTier.name}`
-                : activeBookingOption?.label}
-            </a>
+          <div className="mt-6 text-center space-y-3 md:space-y-0 md:space-x-3">
+            {/* Si hay bookingLinks, mostrar solo esos */}
+            {activeTier?.bookingLinks ? (
+              activeTier.bookingLinks.map((bookingLink, index) => (
+                <a
+                  key={index}
+                  href={bookingLink.link}
+                  className="inline-block font-semibold py-3 px-8 rounded-lg transition-colors duration-200 w-full md:w-auto bg-yellow-500 hover:bg-yellow-600 text-gray-900"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {bookingLink.label}
+                </a>
+              ))
+            ) : (
+              /* Botón principal si no hay bookingLinks */
+              <a
+                href={activeTier?.link || activeBookingOption?.link}
+                className={`inline-block font-semibold py-3 px-8 rounded-lg transition-colors duration-200 w-full md:w-auto ${
+                  activeTier?.active === false
+                    ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                    : "bg-yellow-500 hover:bg-yellow-600 text-gray-900"
+                }`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) =>
+                  activeTier?.active === false && e.preventDefault()
+                }
+              >
+                {activeTier
+                  ? `Book ${activeTier.name}`
+                  : activeBookingOption?.label}
+              </a>
+            )}
           </div>
         )}
       </div>

@@ -175,9 +175,20 @@
       "person6Nights": 2760,
       "personNight": 460,
       "unit6Nights": 11040,
-      "link": "https://buy.stripe.com/5kQeVd9v807V4pw0pgdIA1G",
       "active": true,
-      "unavailableMessage": "What are you waiting for?"
+      "unavailableMessage": "What are you waiting for?",
+      "bookingLinks": [
+        {
+          "label": "Sea View Option",
+          "link": "https://buy.stripe.com/00waEX7n02g36xEfkadIA1D",
+          "description": "Two-bedroom lodge opening out to the endless Adriatic"
+        },
+        {
+          "label": "Sunset View Option",
+          "link": "https://buy.stripe.com/3cI5kDgXA7An9JQ8VMdIA1E",
+          "description": "Two-bedroom lodge with terrace facing enchanting island sunsets"
+        }
+      ]
     }
   ]
 }
