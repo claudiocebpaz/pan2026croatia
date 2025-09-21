@@ -488,59 +488,35 @@
   ],
   "GlammpingLodgeM": [
     {
-      "id": 1,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/04/1R2A7467-HDR.jpg",
-      "alt": "Island Home M Image 1"
-    },
-    {
-      "id": 2,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/07/GLE_0321-HDR.jpg",
-      "alt": "Island Home M Image 2"
-    },
-    {
-      "id": 3,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/05/K2A2695-HDRgraded.jpg",
-      "alt": "Island Home M Image 3"
-    },
-    {
-      "id": 4,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/07/DJI_0553.jpg",
-      "alt": "Island Home M Image 4"
-    },
-    {
-      "id": 5,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/05/K2A2695-HDRgraded.jpg",
-      "alt": "Island Home M Image 5"
-    },
-    {
-      "id": 6,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/07/1R2A7151-HDR.jpg",
-      "alt": "Island Home M Image 6"
-    },
-    {
       "id": 7,
       "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7473-HDR.jpg",
       "alt": "Island Home M Image 7"
     },
-    {
-      "id": 8,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7482-HDR.jpg",
-      "alt": "Island Home M Image 8"
-    },
+
     {
       "id": 9,
       "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7488-HDR.jpg",
       "alt": "Island Home M Image 9"
     },
     {
-      "id": 10,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7497-HDR-1.jpg",
-      "alt": "Island Home M Image 10"
+      "id": 1,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7270-HDR.jpg",
+      "alt": "Island Home M Image 1"
     },
     {
-      "id": 11,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/07/property_23067_5_19Apr12-1555060700.png",
-      "alt": "Island Home M Image 11"
+      "id": 2,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7255-HDR.jpg",
+      "alt": "Island Home M Image 2"
+    },
+    {
+      "id": 3,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/05/91.jpg",
+      "alt": "Island Home M Image 3"
+    },
+    {
+      "id": 4,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/07/property_15848_5_19Apr12-1555060530.png",
+      "alt": "Island Home M Image 4"
     }
   ],
   "OTent": [
