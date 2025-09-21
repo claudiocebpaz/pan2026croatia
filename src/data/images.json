@@ -525,26 +525,18 @@
       "src": "https://obonjan.hr/wp-content/uploads/2023/04/1R2A7575-HDR-1.jpg",
       "alt": "Island Home M Image 1"
     },
-    {
-      "id": 2,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/04/1R2A7530-HDR.jpg",
-      "alt": "Island Home M Image 2"
-    },
+
     {
       "id": 3,
       "src": "https://obonjan.hr/wp-content/uploads/2023/04/1R2A7548-HDR.jpg",
       "alt": "Island Home M Image 3"
     },
     {
-      "id": 4,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7237-HDR.jpg",
-      "alt": "Island Home M Image 4"
+      "id": 2,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/04/1R2A7530-HDR.jpg",
+      "alt": "Island Home M Image 2"
     },
-    {
-      "id": 5,
-      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7240-HDR.jpg",
-      "alt": "Island Home M Image 5"
-    },
+
     {
       "id": 6,
       "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7512-HDR.jpg",
@@ -569,6 +561,16 @@
       "id": 10,
       "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7614-HDR.jpg",
       "alt": "Island Home M Image 10"
+    },
+    {
+      "id": 4,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7237-HDR.jpg",
+      "alt": "Island Home M Image 4"
+    },
+    {
+      "id": 5,
+      "src": "https://obonjan.hr/wp-content/uploads/2023/05/1R2A7240-HDR.jpg",
+      "alt": "Island Home M Image 5"
     }
   ]
 }
