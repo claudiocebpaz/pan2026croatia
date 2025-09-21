@@ -55,10 +55,11 @@ export function AboutText() {
         </ul>
 
         <p className="mt-6">
-          Every ticket unlocks an opportunity to interview for membership in
-          <span className="font-semibold"> Project Sanctuary Club</span>,
-          opening the door to future gatherings and a global community built on
-          connection.
+          Every ticket unlocks an invitation to interview for membership in
+          Project Sanctuary Club, opening the door to future gatherings and a
+          global circle of extraordinary humans, visionaries, and creators who
+          come together in pursuit of beauty, generosity, and the highest
+          expressions of human connection.
         </p>
       </div>
       <p className="font-inter mt-2 text-base/7">
