@@ -425,15 +425,15 @@ export default function FAQPage() {
   }, [location]);
   return (
     <div className="bg-gray-950">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+      <div className="font-inter mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+          <h2 className="font-cinzel text-4xl font-semibold tracking-tight text-white sm:text-5xl">
             Frequently asked questions
           </h2>
           <div className="mt-16 space-y-16">
             {groupedFaqs.map((section) => (
               <div key={section.group}>
-                <h3 className="text-2xl font-bold text-yellow-500 mb-6 mt-8">
+                <h3 className="font-quattrocento text-2xl font-bold text-yellow-500 mb-6 mt-8">
                   {section.group}
                 </h3>
                 <dl className="divide-y divide-white/10">
