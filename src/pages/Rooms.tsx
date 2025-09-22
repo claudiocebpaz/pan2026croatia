@@ -48,13 +48,13 @@ function Rooms() {
         id="single-rooms"
       />
       <Room
-        roomData={IslandHomeSData}
-        pricingTiers={IslandHomeSData.pricingTiers}
+        roomData={IslandHomeMData}
+        pricingTiers={IslandHomeMData.pricingTiers}
         layoutType="even"
       />
       <Room
-        roomData={IslandHomeMData}
-        pricingTiers={IslandHomeMData.pricingTiers}
+        roomData={IslandHomeSData}
+        pricingTiers={IslandHomeSData.pricingTiers}
       />
       <RoomSeparator
         title="Sea Sunset Glamping Lodges"
