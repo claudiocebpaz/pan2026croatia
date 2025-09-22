@@ -33,13 +33,13 @@ function Rooms() {
         id="double-rooms"
       />
       <Room
-        roomData={GlampingLodgeSData}
-        pricingTiers={GlampingLodgeSData.pricingTiers}
+        roomData={GlampingLodgeMData}
+        pricingTiers={GlampingLodgeMData.pricingTiers}
         layoutType="even"
       />
       <Room
-        roomData={GlampingLodgeMData}
-        pricingTiers={GlampingLodgeMData.pricingTiers}
+        roomData={GlampingLodgeSData}
+        pricingTiers={GlampingLodgeSData.pricingTiers}
       />
 
       <RoomSeparator
@@ -48,29 +48,29 @@ function Rooms() {
         id="single-rooms"
       />
       <Room
-        roomData={IslandHomeSData}
-        pricingTiers={IslandHomeSData.pricingTiers}
+        roomData={IslandHomeMData}
+        pricingTiers={IslandHomeMData.pricingTiers}
         layoutType="even"
       />
       <Room
-        roomData={IslandHomeMData}
-        pricingTiers={IslandHomeMData.pricingTiers}
+        roomData={IslandHomeSData}
+        pricingTiers={IslandHomeSData.pricingTiers}
       />
       <RoomSeparator
-        title="Sea Sunset Glamping Lodges"
+        title="Sea & Sunset Glamping Lodges"
         subtitle="The best views in the house—wake up to stunning Adriatic sunsets from your eco-luxury lodge."
         id="single-rooms"
       />
       <Room
-        roomData={GlampingLodgeSSeaSunsetData}
-        pricingTiers={GlampingLodgeSSeaSunsetData.pricingTiers}
-        layoutType="even"
-      />
-
-      <Room
         roomData={GlampingLodgeMSeaSunsetData}
         pricingTiers={GlampingLodgeMSeaSunsetData.pricingTiers}
+        layoutType="even"
       />
+      <Room
+        roomData={GlampingLodgeSSeaSunsetData}
+        pricingTiers={GlampingLodgeSSeaSunsetData.pricingTiers}
+      />
+
       {/* <RoomSeparator
         title="Glamping"
         subtitle="A luxury shared glamping experience for up to 6 people"
