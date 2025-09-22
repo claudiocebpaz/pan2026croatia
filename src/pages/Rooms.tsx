@@ -22,20 +22,11 @@ function Rooms() {
         image="/logosanctuary.webp"
       />
       <RoomSeparator
-        title="Island Homes"
-        subtitle="Your private eco-luxury sanctuary in the Adriatic—six days of sun, sea, and community on our very own island."
-        id="single-rooms"
+        title="O-Tents"
+        subtitle="Sleep under canvas with comfort reimagined—our O-Tents blend the charm of camping with the ease of modern amenities."
+        id="day-passes"
       />
-      <Room
-        roomData={IslandHomeSData}
-        pricingTiers={IslandHomeSData.pricingTiers}
-      />
-      <Room
-        roomData={IslandHomeMData}
-        pricingTiers={IslandHomeMData.pricingTiers}
-        layoutType="even"
-      />
-
+      <Room roomData={OTendtData} pricingTiers={OTendtData.pricingTiers} />
       <RoomSeparator
         title="Glamping Lodges"
         subtitle="Experience eco-chic lodges that blend rustic charm with modern luxury, surrounded by breathtaking Adriatic views."
@@ -44,20 +35,41 @@ function Rooms() {
       <Room
         roomData={GlampingLodgeSData}
         pricingTiers={GlampingLodgeSData.pricingTiers}
-      />
-      <Room
-        roomData={GlampingLodgeSSeaSunsetData}
-        pricingTiers={GlampingLodgeSSeaSunsetData.pricingTiers}
         layoutType="even"
       />
       <Room
         roomData={GlampingLodgeMData}
         pricingTiers={GlampingLodgeMData.pricingTiers}
       />
+
+      <RoomSeparator
+        title="Island Homes"
+        subtitle="Your private eco-luxury sanctuary in the Adriatic—six days of sun, sea, and community on our very own island."
+        id="single-rooms"
+      />
+      <Room
+        roomData={IslandHomeSData}
+        pricingTiers={IslandHomeSData.pricingTiers}
+        layoutType="even"
+      />
+      <Room
+        roomData={IslandHomeMData}
+        pricingTiers={IslandHomeMData.pricingTiers}
+      />
+      <RoomSeparator
+        title="Sea Sunset Glamping Lodges"
+        subtitle="The best views in the house—wake up to stunning Adriatic sunsets from your eco-luxury lodge."
+        id="single-rooms"
+      />
+      <Room
+        roomData={GlampingLodgeSSeaSunsetData}
+        pricingTiers={GlampingLodgeSSeaSunsetData.pricingTiers}
+        layoutType="even"
+      />
+
       <Room
         roomData={GlampingLodgeMSeaSunsetData}
         pricingTiers={GlampingLodgeMSeaSunsetData.pricingTiers}
-        layoutType="even"
       />
       {/* <RoomSeparator
         title="Glamping"
@@ -66,12 +78,6 @@ function Rooms() {
       />
       <Room roomData={TentSharedData} layoutType="even" /> */}
 
-      <RoomSeparator
-        title="O-Tents"
-        subtitle="Sleep under canvas with comfort reimagined—our O-Tents blend the charm of camping with the ease of modern amenities."
-        id="day-passes"
-      />
-      <Room roomData={OTendtData} pricingTiers={OTendtData.pricingTiers} />
       {/* <Room roomData={DayPassData} /> */}
 
       {/* <Room roomData={RiverRoomData} />
