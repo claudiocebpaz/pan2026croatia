@@ -9,24 +9,45 @@ export function AboutText() {
         intimate sanctuary in Croatia where every moment is curated to celebrate
         presence, deep human connection, and the joy of unbridled freedom.
       </p>
-      <p className="font-inter mt-6 text-base/7">
-        From May 19 to May 25, 2026, join the
-        <span className="font-semibold"> Project Sanctuary community</span> for
-        a week of
-        <span className="font-semibold">
+      <p className="font-inter mt-6 text-lg/8 font-medium">
+        From May 19 to May 25, 2026, the island is ours. Obonjan transforms into
+        a playground of
+        <span className="font-semibold text-yellow-600">
           {" "}
-          music, movement, connection rituals, magical meals, and intentional
-          play
+          music, movement, and epic performances
         </span>
-        . This is our "Pan" event—an evolving experiment in building conscious
-        community through celebration.
+        from world-class artists across every modality. Rituals of connection
+        meet long table feasts, poolside mischief, and late-night adventures
+        that blur the line between festival and family. This is Pan, a living
+        experiment in what happens when strangers step off the grid and into
+        something real.
       </p>
-      <p className="font-inter mt-6 text-base/7">
-        Project Sanctuary isn't a club you join—it's a vibration you share. We
-        believe in reclaiming spaces for dance, for depth, and for joy, away
-        from the noise of social media and outside validation. No
-        cinematographers here—just humans, hearts open, feet moving.
+
+      <p className="font-inter mt-6 text-lg/8 font-medium">
+        Project Sanctuary is not a club, it is a frequency. Here we reclaim
+        <span className="font-semibold text-yellow-600">
+          {" "}
+          dance floors as sacred ground
+        </span>{" "}
+        and conversation as art. Phones stay in pockets. There are no
+        spectators, no performances for the outside world— only the magic of
+        being fully here.
       </p>
+
+      <div className="font-inter mt-8 p-6 bg-gradient-to-r from-yellow-50 to-amber-50 rounded-lg border-l-4 border-yellow-400">
+        <p className="text-lg/8 font-medium italic text-gray-800">
+          And the schedule is only a foundation. Every day and every night the
+          island will surprise you. A hidden performance, a sunrise ceremony, a
+          pop-up jam, a secret gathering in the forest— some you may stumble
+          upon alone, others will pull the whole community into one electric
+          heartbeat.
+          <span className="font-semibold text-yellow-600">
+            {" "}
+            Nothing is fixed. Everything is alive.
+          </span>
+          Stay curious, stay open, and let yourself be carried.
+        </p>
+      </div>
       <div className="font-inter mt-6 text-base/7 space-y-4">
         <p className="font-semibold text-lg">Your Experience Includes</p>
         <ul className="list-disc list-inside ml-4 space-y-2">
