@@ -8,6 +8,7 @@ const navigation = [
   { name: "Rooms", href: "/rooms" },
   { name: "Program", href: "/program" },
   { name: "Manifesto", href: "/manifiesto" },
+  { name: "FAQs", href: "/faqs" },
 ];
 
 // Configuración de cuántos píxeles de scroll deben ocurrir antes de mostrar el menú

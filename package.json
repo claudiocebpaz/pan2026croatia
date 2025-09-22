@@ -16,6 +16,7 @@
     "@tailwindcss/vite": "^4.0.5",
     "@types/react-router-hash-link": "^2.4.9",
     "framer-motion": "^12.23.12",
+    "html-react-parser": "^5.2.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-ga4": "^2.1.0",
