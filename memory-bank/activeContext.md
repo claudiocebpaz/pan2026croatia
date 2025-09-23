@@ -26,8 +26,14 @@
 **Cambio estructural específico:**
 
 - Desktop: Botón "Book Now" con estilo indigo-600 en lugar de link simple
-- Mobile: Botón "Book Now" destacado en el menú móvil
+- Mobile: **Botón "Book Now" siempre visible** en el extremo derecho
+- Mobile: **Icono de hamburguesa a la derecha del logo** (nueva posición)
+- Mobile: Botón adicional "Book Now" también disponible dentro del menú desplegable
 - Ambos mantienen la funcionalidad de navegación a /rooms
+
+**Reorganización del navbar móvil:**
+- Logo (izquierda) → Icono hamburguesa (derecha del logo) → Botón "Book Now" (extremo derecho)
+- Mejor distribución espacial y jerarquía visual
 
 ## Next Steps
 

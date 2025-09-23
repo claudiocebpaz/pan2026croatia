@@ -92,12 +92,26 @@ export default function Navbar() {
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8 lg:p-3"
       >
-        {/* Logo */}
-        <div className="flex lg:flex-1">
+        {/* Logo y menú hamburguesa en mobile */}
+        <div className="flex items-center lg:flex-1">
+          {/* Logo */}
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img alt="Company Logo" src={Logo} className="h-8 w-auto" />
           </a>
+
+          {/* Botón para abrir menú Mobile (a la derecha del logo) */}
+          <button
+            type="button"
+            onClick={() => setMobileMenuOpen(true)}
+            className="ml-4 -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-50 lg:hidden"
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu"
+            aria-haspopup="true"
+          >
+            <span className="sr-only">Open main menu</span>
+            <Bars3Icon aria-hidden="true" className="size-6" />
+          </button>
         </div>
 
         {/* 🌐 Menú Desktop */}
@@ -128,18 +142,13 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* 📱 Botón para abrir menú Mobile */}
+        {/* 📱 Botón "Book Now" en Mobile (a la derecha) */}
         <div className="flex lg:hidden">
           <button
-            type="button"
-            onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-50"
-            aria-expanded={mobileMenuOpen}
-            aria-controls="mobile-menu"
-            aria-haspopup="true"
+            onClick={() => (window.location.href = "/rooms")}
+            className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-3 rounded-md transition-colors duration-200 text-sm"
           >
-            <span className="sr-only">Open main menu</span>
-            <Bars3Icon aria-hidden="true" className="size-6" />
+            Book Now
           </button>
         </div>
       </nav>
