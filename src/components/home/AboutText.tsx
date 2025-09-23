@@ -105,7 +105,7 @@ export function AboutText() {
         </p>
       </div>
       <a
-        href="https://community.projectsanctuary.club"
+        href="https://community.projectsanctuary.club/?auth=DPIHHRIOZHLH21D74YLE"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-2 mb-4 inline-block rounded-md bg-yellow-300 px-6 py-3 text-base font-medium text-black hover:bg-yellow-500 transition w-full text-center"
