@@ -136,7 +136,7 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <button
             onClick={() => (window.location.href = "/rooms")}
-            className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-4 rounded-md transition-colors duration-200"
+            className="font-inter bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-4 rounded-md transition-colors duration-200"
           >
             Book Now
           </button>
@@ -146,7 +146,7 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <button
             onClick={() => (window.location.href = "/rooms")}
-            className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-3 rounded-md transition-colors duration-200 text-sm"
+            className="font-inter bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-3 rounded-md transition-colors duration-200 text-sm"
           >
             Book Now
           </button>
