@@ -6,10 +6,14 @@
 @import "tailwindcss";
 
 @theme {
+  --font-sans: "Inter", sans-serif;
   --font-cinzel: "Cinzel", sans-serif;
   --font-quattrocento: "Quattrocento", serif;
   --font-lora: "Lora", serif;
   --font-inter: "Inter", serif;
+
+  /* Establecer Inter como fuente por defecto */
+  --font-family: "Inter", sans-serif;
 }
 
 /* Para manipular estilos swiper */
@@ -22,4 +26,10 @@
   .swiper-pagination-bullet-active {
     background-color: #efefef !important;
   }
+}
+
+/* Aplicar Inter como fuente por defecto a todo el documento */
+html,
+body {
+  font-family: "Inter", sans-serif;
 }

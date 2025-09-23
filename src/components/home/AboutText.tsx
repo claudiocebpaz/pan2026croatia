@@ -14,13 +14,13 @@ export function AboutText() {
         a playground of
         <span className="font-semibold text-yellow-600">
           {" "}
-          music, movement, and epic performances
+          music, movement, and epic performances{" "}
         </span>
         from world-class artists across every modality. Rituals of connection
         meet long table feasts, poolside mischief, and late-night adventures
-        that blur the line between festival and family. This is Pan, a living
-        experiment in what happens when strangers step off the grid and into
-        something real.
+        that blur the line between festival and family. <br />
+        This is Pan, a living experiment in what happens when strangers step off
+        the grid and into something real.
       </p>
 
       <p className="font-inter mt-6 text-lg/8 font-medium">
@@ -36,15 +36,19 @@ export function AboutText() {
 
       <div className="font-inter mt-8 p-6 bg-gradient-to-r from-yellow-50 to-amber-50 rounded-lg border-l-4 border-yellow-400">
         <p className="text-lg/8 font-medium italic text-gray-800">
-          And the schedule is only a foundation. Every day and every night the
-          island will surprise you. A hidden performance, a sunrise ceremony, a
-          pop-up jam, a secret gathering in the forest— some you may stumble
-          upon alone, others will pull the whole community into one electric
-          heartbeat.
+          And the schedule is only a{" "}
+          <span className="font-bold">foundation</span>.
+          <br />
+          Every day and every night the island will surprise you. A hidden
+          performance, a sunrise ceremony, a pop-up jam, a secret gathering in
+          the forest— some you may stumble upon alone, others will pull the
+          whole community into one electric heartbeat.
+          <br />
           <span className="font-semibold text-yellow-600">
             {" "}
-            Nothing is fixed. Everything is alive.
+            Nothing is fixed. Everything is alive.{" "}
           </span>
+          <br />
           Stay curious, stay open, and let yourself be carried.
         </p>
       </div>
@@ -75,12 +79,29 @@ export function AboutText() {
           </li>
         </ul>
 
-        <p className="mt-6">
-          Every ticket unlocks an invitation to interview for membership in
-          Project Sanctuary Club, opening the door to future gatherings and a
-          global circle of extraordinary humans, visionaries, and creators who
-          come together in pursuit of beauty, generosity, and the highest
-          expressions of human connection.
+        <p className="mt-6 font-inter text-lg/8 leading-relaxed text-gray-900">
+          <span className="block">
+            Every ticket unlocks an invitation to{" "}
+            <span className="font-semibold underline decoration-yellow-400 underline-offset-4">
+              interview for membership
+            </span>{" "}
+            in
+            <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-amber-500">
+              {" "}
+              Project Sanctuary Club
+            </span>
+            , opening the door to{" "}
+            <span className="font-semibold">future gatherings</span> and a
+            global circle of{" "}
+            <span className="italic">
+              extraordinary humans, visionaries, and creators
+            </span>{" "}
+            who come together in pursuit of{" "}
+            <span className="font-semibold">beauty</span>,{" "}
+            <span className="font-semibold">generosity</span>, and the highest
+            expressions of{" "}
+            <span className="font-semibold">human connection</span>.
+          </span>
         </p>
       </div>
       <p className="font-inter mt-2 text-base/7">
