@@ -1,8 +1,8 @@
 export function AboutText() {
   return (
     <div className="text-gray-900 lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-      <h2 className="font-cinzel text-4xl font-semibold tracking-tight sm:text-5xl">
-        Project Sanctuary Presents... Early Bird Prelaunch!
+      <h2 className="font-cinzel text-3xl font-semibold tracking-tight sm:text-4xl">
+        Project Sanctuary Presents: PAN 2026 Early Bird Pre-Launch
       </h2>
       <p className="font-quattrocento mt-6 text-xl/8">
         For six unforgettable days, Obonjan Island belongs entirely to us—an
