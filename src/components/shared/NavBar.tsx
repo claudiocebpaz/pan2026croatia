@@ -120,9 +120,12 @@ export default function Navbar() {
 
         {/* 📌 Botón de "Book Now" en Desktop */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/rooms" className="text-sm/6 font-semibold text-gray-50">
-            Book Now <span aria-hidden="true">&rarr;</span>
-          </a>
+          <button
+            onClick={() => (window.location.href = "/rooms")}
+            className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-md transition-colors duration-200"
+          >
+            Book Now
+          </button>
         </div>
 
         {/* 📱 Botón para abrir menú Mobile */}
@@ -196,12 +199,12 @@ export default function Navbar() {
 
               {/* 📌 Botón de "Book Now" en Mobile */}
               <div className="py-6">
-                <a
-                  href="/rooms"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold hover:bg-gray-100"
+                <button
+                  onClick={() => (window.location.href = "/rooms")}
+                  className="-mx-3 block w-full text-left rounded-lg px-3 py-2.5 text-base/7 font-semibold bg-indigo-600 hover:bg-indigo-700 text-white transition-colors duration-200"
                 >
                   Book Now
-                </a>
+                </button>
               </div>
             </div>
           </div>

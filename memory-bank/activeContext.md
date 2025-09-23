@@ -17,10 +17,17 @@
 - Mejoras de accesibilidad ARIA (aria-expanded, aria-controls, aria-current)
 - Gestión de estado consolidada con hooks personalizados
 - Navegación por teclado mejorada
+- **Cambio estructural**: "Book Now" convertido de link a botón siempre visible (desktop y mobile)
 
 **Archivo modificado:**
 
-- `src/components/shared/NavBar.tsx` - Comportamiento optimizado manteniendo look & feel
+- `src/components/shared/NavBar.tsx` - Comportamiento optimizado y estructura mejorada manteniendo look & feel
+
+**Cambio estructural específico:**
+
+- Desktop: Botón "Book Now" con estilo indigo-600 en lugar de link simple
+- Mobile: Botón "Book Now" destacado en el menú móvil
+- Ambos mantienen la funcionalidad de navegación a /rooms
 
 ## Next Steps
 
