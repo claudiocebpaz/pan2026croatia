@@ -104,10 +104,20 @@ export function AboutText() {
           </span>
         </p>
       </div>
+      <a
+        href="https://community.projectsanctuary.club"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 mb-4 inline-block rounded-md bg-yellow-300 px-6 py-3 text-base font-medium text-black hover:bg-yellow-500 transition w-full text-center"
+      >
+        Join the Community
+        <span className="text-xl"> &rarr;</span>
+      </a>
       <p className="font-inter mt-2 text-base/7">
         ✨ Welcome to the Obonjan Island Experience — where sanctuary meets
         celebration, and the Adriatic Sea becomes our stage for connection.
       </p>
+
       <div className="font-inter mt-6 rounded-md border border-yellow-400 bg-yellow-50 p-6 text-base/7">
         <h3 className="mb-2 text-2xl font-semibold italic">What is Pan?</h3>
         <p className="not-italic leading-relaxed text-gray-800">
