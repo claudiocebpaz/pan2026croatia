@@ -122,7 +122,7 @@ export default function Navbar() {
               href={item.href}
               className={`font-semibold transition-colors duration-200 ${
                 isActiveLink(item.href)
-                  ? "text-white border-b-2 border-white"
+                  ? "text-yellow-400 border-b-2 border-yellow-400"
                   : "text-gray-300 hover:text-white"
               }`}
               aria-current={isActiveLink(item.href) ? "page" : undefined}
@@ -136,7 +136,7 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <button
             onClick={() => (window.location.href = "/rooms")}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-md transition-colors duration-200"
+            className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-4 rounded-md transition-colors duration-200"
           >
             Book Now
           </button>
@@ -146,7 +146,7 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <button
             onClick={() => (window.location.href = "/rooms")}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-3 rounded-md transition-colors duration-200 text-sm"
+            className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-3 rounded-md transition-colors duration-200 text-sm"
           >
             Book Now
           </button>
@@ -196,7 +196,7 @@ export default function Navbar() {
                     href={item.href}
                     className={`-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold transition-colors duration-200 ${
                       isActiveLink(item.href)
-                        ? "bg-white/10 text-white border-l-4 border-white"
+                        ? "bg-yellow-500/10 text-yellow-400 border-l-4 border-yellow-400"
                         : "text-gray-300 hover:bg-white/5 hover:text-white"
                     }`}
                     aria-current={isActiveLink(item.href) ? "page" : undefined}
@@ -210,7 +210,7 @@ export default function Navbar() {
               <div className="py-6">
                 <button
                   onClick={() => (window.location.href = "/rooms")}
-                  className="-mx-3 block w-full text-left rounded-lg px-3 py-2.5 text-base/7 font-semibold bg-indigo-600 hover:bg-indigo-700 text-white transition-colors duration-200"
+                  className="-mx-3 block w-full text-left rounded-lg px-3 py-2.5 text-base/7 font-semibold bg-yellow-500 hover:bg-yellow-600 text-gray-900 transition-colors duration-200"
                 >
                   Book Now
                 </button>

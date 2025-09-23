@@ -65,12 +65,15 @@
 
 ## 5. 📚 Documentar pensando en el "yo" de 3 meses después
 
-- **Regla:** Documentar lo justo para que otro dev (o tú) entienda por qué se hizo algo.
+<!-- - **Regla:** Documentar lo justo para que otro dev (o tú) entienda por qué se hizo algo.
 - **Evita:** Comentarios obvios.
 - **Incluye:** Contexto, decisiones técnicas y notas sobre cambios relevantes.
 
 - **Ejemplo:**
   ```ts
   // Este endpoint usa versión v2 porque v3 tiene un bug en paginación
-  fetch('/api/data/v2');
+  fetch('/api/data/v2'); -->
   ```
+
+  - **Regla:** No hace falta hacer commit de git.
+  - **Regla:** No hace falta hacer build.
