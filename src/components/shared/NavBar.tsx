@@ -44,6 +44,26 @@ const useActivePath = () => {
   return activePath;
 };
 
+// Hook personalizado para detectar vista móvil (menos de 1024px)
+const useIsMobile = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+
+    // Verificar al montar
+    checkMobile();
+
+    // Escuchar cambios de tamaño
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  return isMobile;
+};
+
 // Hook personalizado para manejar la visibilidad del navbar
 const useNavbarVisibility = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -72,6 +92,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const isVisible = useNavbarVisibility();
   const activePath = useActivePath();
+  const isMobile = useIsMobile();
 
   // Función para determinar si un link está activo
   const isActiveLink = (href: string) => {
@@ -94,11 +115,26 @@ export default function Navbar() {
       >
         {/* Logo y menú hamburguesa en mobile */}
         <div className="flex items-center lg:flex-1">
-          {/* Logo */}
-          <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img alt="Company Logo" src={Logo} className="h-8 w-auto" />
-          </a>
+          {/* Logo - se comporta como botón en móvil, como link en desktop */}
+          {isMobile ? (
+            <button
+              type="button"
+              onClick={() => setMobileMenuOpen(true)}
+              className="-m-1.5 p-1.5"
+              aria-label="Abrir menú de navegación"
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
+              aria-haspopup="true"
+            >
+              <span className="sr-only">Your Company</span>
+              <img alt="Company Logo" src={Logo} className="h-8 w-auto" />
+            </button>
+          ) : (
+            <a href="/" className="-m-1.5 p-1.5">
+              <span className="sr-only">Your Company</span>
+              <img alt="Company Logo" src={Logo} className="h-8 w-auto" />
+            </a>
+          )}
 
           {/* Botón para abrir menú Mobile (a la derecha del logo) */}
           <button
