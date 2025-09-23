@@ -2,10 +2,25 @@
 
 ## Recent Changes
 
+- **Navbar Behavior Optimization**: Improved scroll detection with throttling, added active page indicators, enhanced ARIA accessibility
 - Implemented hero video section
 - Built event timeline component
 - Created room selection interface
 - Added /manifiesto page with routing, navigation, and SEO
+
+## Navbar Behavior Improvements
+
+**Optimizaciones implementadas:**
+
+- Scroll detection con throttling (100ms) para mejor performance
+- Indicador visual de página activa en desktop y mobile
+- Mejoras de accesibilidad ARIA (aria-expanded, aria-controls, aria-current)
+- Gestión de estado consolidada con hooks personalizados
+- Navegación por teclado mejorada
+
+**Archivo modificado:**
+
+- `src/components/shared/NavBar.tsx` - Comportamiento optimizado manteniendo look & feel
 
 ## Next Steps
 
