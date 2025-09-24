@@ -21,6 +21,7 @@ export default defineConfig({
           if (id.includes("node_modules")) {
             if (id.includes("react")) return "react";
             if (id.includes("@supabase")) return "supabase";
+            if (id.includes("react-international-phone")) return "phone-lib";
             if (
               id.includes("tailwindcss") ||
               id.includes("headlessui") ||
