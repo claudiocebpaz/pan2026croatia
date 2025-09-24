@@ -18,16 +18,16 @@ export default function Terms() {
         <div className="space-y-6 text-gray-200 font-quattrocento">
           <h2 className="sr-only">Intro</h2>
           <p className="font-quattrocento">
-            PAN 2025 & Project Sanctuary Membership
+            PAN 2026 & Project Sanctuary Membership
           </p>
           <p>
             By purchasing a ticket, accepting an invitation, or attending PAN
-            2025, you agree to the following Terms and Conditions, designed to
+            2026, you agree to the following Terms and Conditions, designed to
             uphold the integrity, safety, and sacredness of the Project
             Sanctuary community. These Terms & Conditions constitute a binding
-            agreement between you (“Participant”) and Project Sanctuary Club
-            Inc., a California corporation, for participation in the PAN 2025
-            event in France.
+            agreement between you ("Participant") and Project Sanctuary Club
+            Inc., a California corporation, for participation in the PAN 2026
+            event in Croatia.
           </p>
 
           <div className="my-6 text-center">⸻</div>
@@ -37,8 +37,8 @@ export default function Terms() {
           </h2>
           <div className="space-y-2">
             <p>
-              1.1 Private Event – PAN 2025 is a private, invitation-only
-              gathering produced by Project Sanctuary Club Inc. (“Organizer”).
+              1.1 Private Event – PAN 2026 is a private, invitation-only
+              gathering produced by Project Sanctuary Club Inc. ("Organizer").
             </p>
             <p>
               1.2 Approval Required – Attendance is subject to prior approval
@@ -116,7 +116,7 @@ export default function Terms() {
           </h2>
           <div className="space-y-2">
             <p>
-              4.1 Discretionary Offer – Attendance at PAN 2025 may include an
+              4.1 Discretionary Offer – Attendance at PAN 2026 may include an
               offer for a one-year complimentary membership to Project
               Sanctuary, subject to interview and approval.
             </p>
@@ -197,7 +197,7 @@ export default function Terms() {
             </p>
             <p>
               7.2 Alcohol & Tobacco – Consumption is permitted only in
-              designated areas and in compliance with French law.
+              designated areas and in compliance with Croatian law.
             </p>
             <p>
               7.3 Consent & Safety – Participants must remain in a state to give
@@ -214,7 +214,7 @@ export default function Terms() {
           <div className="space-y-2">
             <p>
               8.1 Public Health Compliance – Participants agree to comply with
-              any health and safety measures required by French authorities or
+              any health and safety measures required by Croatian authorities or
               the Organizer, including but not limited to proof of vaccination,
               testing, or mask-wearing.
             </p>
@@ -273,7 +273,7 @@ export default function Terms() {
             <p>
               11.2 Mediation & Arbitration – If unresolved, disputes shall be
               settled by binding arbitration under California law, seated in San
-              Francisco, unless otherwise required by French consumer law.
+              Francisco, unless otherwise required by Croatian consumer law.
             </p>
           </div>
 
@@ -299,8 +299,8 @@ export default function Terms() {
           <p>
             <span className="font-semibold">Governing Law:</span> These Terms
             are governed by the laws of the State of California, USA, and
-            applicable French laws for matters arising from the event held in
-            France.
+            applicable Croatian laws for matters arising from the event held in
+            Croatia.
           </p>
 
           <div className="my-6 text-center">⸻</div>

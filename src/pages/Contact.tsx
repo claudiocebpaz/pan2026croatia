@@ -97,6 +97,8 @@ export default function Contact() {
       // Reset form
       (e.target as HTMLFormElement).reset();
       setIsAgreed(false);
+      setPhoneValue("");
+      setSelectedCountry("us");
     } catch (error) {
       console.error("Error submitting form:", error);
       setSubmitStatus("error");
