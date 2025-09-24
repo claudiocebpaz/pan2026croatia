@@ -3,38 +3,25 @@ import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { supabase } from "../lib/supabaseClient";
 import Notification from "../components/shared/Notification";
-import { PhoneInput } from "react-international-phone";
-import "react-international-phone/style.css";
 
-// Custom CSS to override PhoneInput styles to match the form
-const phoneInputStyles = `
-.react-international-phone-input {
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
-  color: white !important;
-}
-
-.react-international-phone-input:focus {
-  outline: 2px solid #6366f1 !important;
-  outline-offset: -2px !important;
-}
-
-.react-international-phone-country-selector-button {
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
-  color: white !important;
-}
-
-.react-international-phone-country-selector-dropdown {
-  background-color: #1f2937 !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
-  color: white !important;
-}
-
-.react-international-phone-country-selector-dropdown-item:hover {
-  background-color: #374151 !important;
-}
-`;
+// Simple country selector options
+const countryOptions = [
+  { code: "us", name: "United States", dialCode: "+1" },
+  { code: "ar", name: "Argentina", dialCode: "+54" },
+  { code: "es", name: "Spain", dialCode: "+34" },
+  { code: "mx", name: "Mexico", dialCode: "+52" },
+  { code: "br", name: "Brazil", dialCode: "+55" },
+  { code: "fr", name: "France", dialCode: "+33" },
+  { code: "de", name: "Germany", dialCode: "+49" },
+  { code: "it", name: "Italy", dialCode: "+39" },
+  { code: "uk", name: "United Kingdom", dialCode: "+44" },
+  { code: "au", name: "Australia", dialCode: "+61" },
+  { code: "ca", name: "Canada", dialCode: "+1" },
+  { code: "cl", name: "Chile", dialCode: "+56" },
+  { code: "co", name: "Colombia", dialCode: "+57" },
+  { code: "pe", name: "Peru", dialCode: "+51" },
+  { code: "uy", name: "Uruguay", dialCode: "+598" },
+];
 
 export default function Contact() {
   const [isAgreed, setIsAgreed] = useState(false);
@@ -142,7 +129,6 @@ export default function Contact() {
           Get in touch with us for any questions about the retreat.
         </p>
       </div>
-      <style>{phoneInputStyles}</style>
       <form onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
@@ -209,28 +195,35 @@ export default function Contact() {
                 (optional)
               </span>
             </label>
-            <div className="mt-2.5">
-              <PhoneInput
-                defaultCountry="us"
+            <div className="mt-2.5 flex gap-2">
+              <select
+                value={selectedCountry}
+                onChange={(e) => setSelectedCountry(e.target.value)}
+                className="w-32 rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+              >
+                {countryOptions.map((country) => (
+                  <option key={country.code} value={country.code}>
+                    {country.dialCode} {country.name}
+                  </option>
+                ))}
+              </select>
+              <input
+                id="phone-number"
                 name="phone-number"
-                placeholder="Enter phone number"
-                value={phoneValue}
-                onChange={(phone, countryInfo) => {
-                  setPhoneValue(phone);
-                  setSelectedCountry(countryInfo.country.iso2);
+                type="tel"
+                placeholder="Phone number"
+                value={phoneValue.replace(/^\+\d+\s?/, "")}
+                onChange={(e) => {
+                  const selectedCountryObj = countryOptions.find(
+                    (c) => c.code === selectedCountry
+                  );
+                  const dialCode = selectedCountryObj?.dialCode || "";
+                  const phoneNumber = e.target.value;
+                  setPhoneValue(
+                    phoneNumber ? `${dialCode} ${phoneNumber}` : ""
+                  );
                 }}
-                inputClassName="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
-                countrySelectorStyleProps={{
-                  buttonClassName:
-                    "bg-white/5 text-white border-white/10 rounded-l-md px-3.5 py-2",
-                  dropdownStyleProps: {
-                    style: {
-                      backgroundColor: "#1f2937",
-                      color: "white",
-                      borderColor: "rgba(255,255,255,0.1)",
-                    },
-                  },
-                }}
+                className="flex-1 rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
               />
             </div>
           </div>
