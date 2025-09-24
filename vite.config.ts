@@ -17,20 +17,7 @@ export default defineConfig({
     chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
-        manualChunks(id) {
-          if (id.includes("node_modules")) {
-            if (id.includes("react")) return "react";
-            if (id.includes("@supabase")) return "supabase";
-            if (id.includes("react-international-phone")) return "phone-lib";
-            if (
-              id.includes("tailwindcss") ||
-              id.includes("headlessui") ||
-              id.includes("heroicons")
-            )
-              return "ui";
-            return "vendor"; // el resto de las libs
-          }
-        },
+        manualChunks: undefined, // Deshabilitar manual chunks para evitar problemas
       },
     },
   },
