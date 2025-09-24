@@ -7,6 +7,7 @@ import TestSupabase from "./pages/TestSupabase";
 import Terms from "./pages/Terms";
 import Manifiesto from "./pages/Manifiesto";
 import FAQPage from "./pages/FAQPage";
+import Contact from "./pages/Contact";
 import { AuthWrapper } from "./components/shared/AuthWrapper";
 
 export default function AppRoutes() {
@@ -34,6 +35,7 @@ export default function AppRoutes() {
       <Route path="/terms" element={<Terms />} />
       <Route path="/manifiesto" element={<Manifiesto />} />
       <Route path="/faqs" element={<FAQPage />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }

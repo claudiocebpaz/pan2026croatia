@@ -1,0 +1,5 @@
+# supabase/config.toml  (mínimo válido)
+project_id = "wnodqskgwavruorxatcn"   # <-- va en la raíz, no dentro de [project]
+
+[db]
+major_version = 15
